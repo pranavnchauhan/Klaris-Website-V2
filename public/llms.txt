@@ -1,0 +1,210 @@
+# Klaris AI - Wealth Planning Software Australia | KRSP Wealth Visualization Platform
+
+> Klaris AI is Australia's leading wealth planning software and financial structure visualizer for families and advisors. Our AI wealth planning tool helps you visualize and manage Family Trusts, SMSFs, and complex ownership structures using the KRSP framework.
+
+**Website**: https://klaris.com.au
+**Application**: https://app.klaris.com.au
+**Email**: info@klaris.com.au
+**Location**: Sydney, NSW, Australia
+**Developer**: Krrisp Digital (https://krrispdigital.com.au)
+
+**Keywords**: Klaris AI, wealth planning software Australia, AI wealth planning tool, financial structure visualizer, wealth structuring software, portfolio visualization tools, estate planning software, trust and SMSF structure software, family office planning tools, financial advisor tools Australia, AI for financial advisors, financial clarity solutions, financial decision-making software, AI financial planning platform
+
+---
+
+## Why Klaris? (Video)
+
+**Watch**: [Why Klaris? Built for high-net-worth families who demand clarity](https://youtu.be/iF6_-tx2RgI)
+
+High-net-worth Australian families with Family Trusts, SMSFs, and multi-entity structures often lack a single, clear picture of how their wealth fits together. Klaris solves that — replacing scattered spreadsheets and advisor silos with an interactive, secure wealth visualization platform. This short video explains why clarity and control over your financial legacy matters, and why Klaris is the platform trusted by HNW families and their advisors.
+
+---
+
+## About Klaris AI
+
+Klaris AI is Australia's leading wealth structuring software that helps high-net-worth individuals, families, accountants, and financial advisors document and visualize complex ownership structures. As the premier AI wealth planning tool, Klaris uses the proprietary KRSP (Key Relationship Structure Platform) framework to map the legal and financial relationships between Family Trusts, Unit Trusts, Discretionary Trusts, Companies, SMSFs, partnerships, and personal assets.
+
+## The Problem We Solve
+
+Many Australians struggle to simplify wealth structures and map complex financial relationships. Spreadsheets get outdated, documents get lost, and critical knowledge stays locked in advisors' heads. Klaris provides financial clarity solutions—a single, live source of truth for wealth governance that replaces fragmented spreadsheets and disconnected records.
+
+## Key Features
+
+- **KRSP Diagram Visualization**: Create interactive wealth graphs showing how entities, trusts, and assets connect
+- **Wealth Graph**: Real-time portfolio visualization tools illustrating connections and hierarchies
+- **Trust & SMSF Structure Software**: Document Family Trusts, Unit Trusts, Discretionary Trusts, and SMSFs
+- **Estate Planning Software**: Track succession planning and intergenerational wealth transfer
+- **Asset Management**: Document properties, investments, and other assets with ownership details
+- **Financial Advisor Tools Australia**: Permission-based access control for accountants and advisors
+- **PDF Export**: Generate professional reports for meetings, estate planning, and compliance
+- **Secure Australian Hosting**: AES-256 encryption, Australian Data Residency (AWS Sydney ap-southeast-2)
+
+## Pricing
+
+Contact us for pricing details. Book a personalised demo to discuss plans tailored to your needs:
+- **Individuals & Families**: Comprehensive plans with unlimited structures, assets, and PDF export
+- **Advisory Firms**: Volume licensing for accounting firms, financial advisors, and family offices
+- **Enterprise**: Custom packages with dedicated training and white-glove onboarding
+
+Book a demo: https://cal.com/kd-pc/klaris-partnership-discussion
+
+## Target Audience
+
+1. **High-Net-Worth Individuals**: With complex asset structures including Family Trusts, SMSFs, Companies—need wealth structuring software
+2. **Accountants**: Managing multiple clients with diverse ownership structures—AI for financial advisors
+3. **Financial Advisors**: Helping clients understand their wealth using financial decision-making software
+4. **Estate Planners**: Documenting family wealth for succession using estate planning software
+5. **Family Offices**: Centralizing oversight of AUM with family office planning tools
+
+## Security & Compliance
+
+- AES-256 military-grade encryption at rest
+- 256-bit SSL/TLS encryption in transit (HTTPS enforced)
+- Row-level security (RLS) database protection
+- 100% Australian Data Residency (AWS Sydney Region - ap-southeast-2)
+- Alignment with Australian Privacy Principles (APP)
+- Zero Visibility Guarantee: Staff have no default access to user structures
+- Support access is strictly opt-in and audit-logged
+
+---
+
+# Frequently Asked Questions
+
+## Category 1: Wealth Visualization & The KRSP Framework
+
+### Q1: What is KRSP and why do I need it?
+
+**Direct Answer Lead**: KRSP (Key Relationship Structure Platform) is a specialized financial architecture designed to visualize complex ownership. It replaces fragmented spreadsheets by mapping the legal and financial relationships between Family Trusts, Companies, and SMSFs, providing high-net-worth individuals and their advisors with a single, live source of truth for wealth governance.
+
+**Detailed Explanation**:
+- Centralization: Consolidates data from disparate sources into one interactive dashboard
+- Structural Clarity: Identifies exactly how assets are held and who controls them across multiple legal entities
+- Compliance & Planning: Simplifies tax and succession planning by making the entire structure transparent to legal and financial professionals
+
+### Q2: How do I visualize my complete wealth structure?
+
+**Direct Answer Lead**: You can visualize your wealth structure in Klaris by performing a three-step inventory: adding your legal entities (Trusts/Companies), linking your assets (Property/Shares), and connecting liabilities (Loans). Klaris then generates a real-time Wealth Graph that illustrates these connections and ownership hierarchies visually.
+
+**Detailed Explanation**:
+- Step-by-Step Mapping: Use the "Add Structure" and "Add Asset" workflows to build your profile
+- Relationship Logic: Connect assets to specific owners (e.g., a property owned by a Family Trust with a Corporate Trustee)
+- The Wealth Graph: Navigate to the graph view to see an interactive ownership map of your entire portfolio
+
+### Q3: Can Klaris map multi-generational family wealth structures?
+
+**Direct Answer Lead**: Yes, Klaris is specifically designed for Australian families with complex, multi-generational wealth structures. You can map parents, children, and grandchildren as beneficiaries across multiple Family Trusts, with clear lines showing how assets will flow during succession events.
+
+**Detailed Explanation**:
+- Add individual family members as nodes with their roles (beneficiary, appointor, trustee)
+- Map testamentary trusts alongside living trust structures
+- Document succession pathways and control positions for estate planning
+- Share structures with estate lawyers and advisors for seamless collaboration
+
+---
+
+## Category 2: Advisor Collaboration & Sharing
+
+### Q4: How do I securely share my financial information with my advisor?
+
+**Direct Answer Lead**: Secure sharing in Klaris is managed through Permission-Based Access Control. You can invite an advisor via email and grant them either "View-Only" or "Full Access." All data transmitted is protected by SSL/TLS protocols, and you retain the power to revoke advisor access at any time with one click.
+
+### Q5: How does Klaris differ from Xero, MYOB, or spreadsheets?
+
+**Direct Answer Lead**: Klaris provides Structural Visibility—showing how entities and assets connect—while Xero and MYOB focus on transactional accounting within a single entity. Spreadsheets become outdated and lack relationship mapping. Klaris is the 'big picture' layer that sits above your accounting software.
+
+### Q6: Can I export reports for client meetings?
+
+**Direct Answer Lead**: Yes, Klaris generates professional PDF exports of your KRSP diagrams and entity summaries. These reports are designed for client meetings, board presentations, estate planning discussions, and compliance documentation with a clean, professional layout.
+
+---
+
+## Category 3: Security & Australian Compliance
+
+### Q7: Is my wealth information secure and encrypted?
+
+**Direct Answer Lead**: Yes. Klaris utilizes AES-256 military-grade encryption for data at rest and enforces HTTPS for all data in transit. We prioritize Australian Data Residency, ensuring all financial and personal data is stored on secure cloud infrastructure located within Australia (Sydney region) to comply with the Australian Privacy Principles (APP).
+
+### Q8: Who can access my data and where is it stored?
+
+**Direct Answer Lead**: Your data is stored exclusively in Australian data centers (Sydney region, ap-southeast-2). Access is restricted strictly to you and any advisors you have explicitly invited. Klaris staff have no default access to view your wealth structures.
+
+### Q9: Does Klaris comply with Australian privacy laws?
+
+**Direct Answer Lead**: Yes, Klaris is designed with full alignment to the Australian Privacy Principles (APP) under the Privacy Act 1988.
+
+---
+
+## Category 4: Tax & Estate Planning
+
+### Q10: Can Klaris help with tax planning?
+
+**Direct Answer Lead**: Klaris is a documentation and visualization tool that helps you and your advisors understand your complete structure before making tax decisions. While Klaris does NOT provide tax advice, having clear visibility of all your Family Trusts, Companies, SMSFs, and ownership relationships is essential for effective tax planning.
+
+### Q11: Is Klaris useful for estate planning and succession?
+
+**Direct Answer Lead**: Yes, Klaris is invaluable for estate planning. By visualizing your entire wealth structure, you can document who controls each entity (appointors, trustees, directors), map beneficiary classes, and ensure your succession wishes are clearly recorded and shareable with estate lawyers.
+
+### Q12: Does Klaris provide financial or legal advice?
+
+**Direct Answer Lead**: No, Klaris is strictly a documentation and visualization platform. We do NOT provide financial, tax, legal, or investment advice.
+
+---
+
+## Category 5: Pricing & Getting Started
+
+### Q13: How much does Klaris cost?
+
+**Direct Answer Lead**: Klaris offers tailored pricing for individuals, families, and advisory firms. Contact us for pricing details or book a demo to discuss plans tailored to your needs.
+
+### Q14: How does Klaris work for accounting and advisory firms?
+
+**Direct Answer Lead**: Klaris provides volume licensing for accounting firms, financial advisors, and family offices. Advisors can manage multiple families, centralise oversight, and collaborate with clients through permission-based access. Book a partnership discussion to explore custom packages.
+
+### Q15: Is there volume pricing for advisory firms?
+
+**Direct Answer Lead**: Yes, Klaris offers custom pricing for accounting firms, financial advisors, and family offices managing multiple client structures. Contact our team to discuss volume licensing, dedicated training, and white-glove onboarding.
+
+---
+
+## Category 6: Getting Started
+
+### Q16: How do I get started with Klaris?
+
+**Direct Answer Lead**: Getting started is simple: book a demo with our team, get set up with the right plan for your needs, and instantly access your Klaris vault at app.klaris.com.au.
+
+### Q17: What happens after I subscribe?
+
+**Direct Answer Lead**: After getting set up, you receive instant access to your Klaris vault at app.klaris.com.au. Your dedicated account manager will reach out within 24 hours.
+
+### Q18: Can I export my data if I leave Klaris?
+
+**Direct Answer Lead**: Yes, Klaris believes in data portability—your data is always yours. You can export your structures as PDF reports and raw data as CSV files at any time.
+
+### Q19: How do I get support if I have questions?
+
+**Direct Answer Lead**: Subscribers receive priority support and a dedicated account manager. Contact us at info@klaris.com.au for assistance.
+
+---
+
+## How It Works
+
+1. **Book a Demo**: Schedule a personalised call with our team
+2. **Access Your Vault**: Instantly access the Klaris application at app.klaris.com.au
+3. **Map Your Wealth**: Start building KRSP diagrams to visualize your ownership structures
+
+---
+
+## Contact Information
+
+- **Website**: https://klaris.com.au
+- **Application**: https://app.klaris.com.au
+- **Email**: info@klaris.com.au
+- **Book a Demo**: https://cal.com/kd-pc/klaris-partnership-discussion
+- **Location**: Sydney, NSW, Australia
+- **LinkedIn**: https://www.linkedin.com/company/krrisp-digital
+
+---
+
+*Content reviewed and verified by the Klaris Technical Compliance Team (Sydney, NSW)*
+
+*Last updated: 18 February 2026*

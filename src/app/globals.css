@@ -1,0 +1,121 @@
+@import "tailwindcss";
+
+/* Self-hosted Plus Jakarta Sans */
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url('/fonts/plus-jakarta-sans-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url('/fonts/plus-jakarta-sans-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* Tailwind v4 theme */
+@theme {
+  --color-background: hsl(0 0% 100%);
+  --color-foreground: hsl(201 19% 40%);
+
+  --color-card: hsl(0 0% 100%);
+  --color-card-foreground: hsl(201 19% 40%);
+
+  --color-primary: hsl(201 22% 32%);
+  --color-primary-light: hsl(210 26% 59%);
+  --color-primary-foreground: hsl(0 0% 100%);
+
+  --color-secondary: hsl(201 61% 88%);
+  --color-secondary-foreground: hsl(201 22% 32%);
+
+  --color-muted: hsl(202 43% 78%);
+  --color-muted-foreground: hsl(214 18% 35%);
+
+  --color-accent: hsl(210 35% 45%);
+  --color-accent-foreground: hsl(0 0% 100%);
+
+  --color-destructive: hsl(0 84% 60%);
+  --color-destructive-foreground: hsl(210 40% 98%);
+
+  --color-border: hsl(202 43% 85%);
+  --color-input: hsl(202 43% 85%);
+  --color-ring: hsl(201 19% 40%);
+
+  --color-footer: hsl(201 19% 40%);
+  --color-footer-foreground: hsl(202 43% 78%);
+
+  --color-section-hero: hsl(205 60% 96%);
+  --color-section-problem: hsl(202 43% 78%);
+  --color-section-solution: hsl(0 0% 100%);
+  --color-section-audience: hsl(210 26% 59%);
+  --color-section-benefits: hsl(0 0% 100%);
+  --color-section-cta: hsl(210 26% 59%);
+
+  --radius: 0.75rem;
+
+  --font-sans: 'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+
+  --animate-accordion-down: accordion-down 0.2s ease-out;
+  --animate-accordion-up: accordion-up 0.2s ease-out;
+  --animate-fade-up: fade-up 0.5s ease-out forwards;
+
+  @keyframes accordion-down {
+    from { height: 0; }
+    to { height: var(--radix-accordion-content-height); }
+  }
+  @keyframes accordion-up {
+    from { height: var(--radix-accordion-content-height); }
+    to { height: 0; }
+  }
+  @keyframes fade-up {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+}
+
+/* Base styles */
+* {
+  border-color: var(--color-border);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Component utilities */
+@utility gradient-primary {
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-light) 100%);
+}
+
+@utility gradient-hero {
+  background: linear-gradient(135deg, var(--color-section-hero) 0%, var(--color-background) 100%);
+}
+
+@utility section-hero {
+  background-color: var(--color-section-hero);
+}
+
+@utility section-problem {
+  background-color: var(--color-section-problem);
+}
+
+@utility section-audience {
+  background-color: var(--color-section-audience);
+}
+
+@utility section-cta {
+  background-color: var(--color-section-cta);
+}
