@@ -159,6 +159,13 @@ export default function ContactClient() {
                       <Send className="mr-2 h-4 w-4" />
                       {isSubmitting ? "Sending..." : "Send Message"}
                     </Button>
+
+                    <p className="text-xs text-muted-foreground mt-3">
+                      By submitting this form, you agree that Krrisp Pty Ltd (trading as Klaris) may contact you in relation to your enquiry. We handle your information in accordance with our{" "}
+                      <Link href="/privacy" className="underline hover:text-primary transition-colors">
+                        Privacy Policy
+                      </Link>.
+                    </p>
                   </form>
                 </CardContent>
               </Card>
@@ -194,7 +201,7 @@ export default function ContactClient() {
                     <div>
                       <p className="text-sm font-medium">Location</p>
                       <p className="text-sm text-muted-foreground">
-                        Sydney, Australia
+                        Bella Vista, NSW 2153, Australia
                       </p>
                     </div>
                   </div>

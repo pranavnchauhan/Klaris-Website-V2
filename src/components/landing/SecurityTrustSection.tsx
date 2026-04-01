@@ -78,12 +78,13 @@ export default function SecurityTrustSection() {
             </div>
           </div>
           <h3 className="text-xl font-bold text-primary mb-3 text-center">
-            Zero Visibility Guarantee
+            Zero Routine Staff Visibility
           </h3>
           <p className="text-muted-foreground max-w-xl mx-auto leading-relaxed text-center">
-            Klaris staff cannot see your financial data. Our zero-knowledge architecture means
-            only you and the people you explicitly share with can access your wealth information.
-            Ever.
+            Our systems are designed so that Klaris staff do not have routine access to your wealth
+            structures. When you request support that requires data access, this is strictly opt-in
+            and fully audit-logged. In the event of a technical incident, our response team may access
+            the minimum data necessary to resolve the issue, subject to our Data Breach Notification procedures.
           </p>
         </div>
       </div>

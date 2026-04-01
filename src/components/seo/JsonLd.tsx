@@ -139,12 +139,12 @@ export default function JsonLd() {
           {
             "@type": "PropertyValue",
             name: "ABN",
-            value: "22 841 816 599",
+            value: "38 609 221 570",
           },
           {
             "@type": "PropertyValue",
-            name: "iso6523-actorid-upis",
-            value: "0151:22841816599",
+            name: "ACN",
+            value: "609 221 570",
           },
         ],
         sameAs: [

@@ -708,7 +708,7 @@ export default function PrivacyPage() {
                   </a>
                 </p>
                 <p className="text-foreground/80 mb-1">
-                  <strong>Entity:</strong> Krrisp Pty Ltd (ACN: 609 221 570)
+                  <strong>Entity:</strong> Krrisp Pty Ltd (ABN: 38 609 221 570 | ACN: 609 221 570)
                 </p>
                 <p className="text-foreground/80">
                   <strong>Website:</strong>{" "}

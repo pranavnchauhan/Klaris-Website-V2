@@ -18,9 +18,12 @@ export default function ContactPage() {
       "@type": "Organization",
       name: "Klaris AI",
       email: "info@klaris.com.au",
+      telephone: "+61 483 966 111",
       address: {
         "@type": "PostalAddress",
-        addressLocality: "Sydney",
+        addressLocality: "Bella Vista",
+        addressRegion: "NSW",
+        postalCode: "2153",
         addressCountry: "AU",
       },
     },

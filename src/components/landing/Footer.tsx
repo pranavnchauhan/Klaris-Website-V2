@@ -13,6 +13,10 @@ const productLinks = [
 const legalLinks = [
   { label: "Privacy Policy", href: "/privacy" },
   { label: "Terms of Service", href: "/terms" },
+  { label: "Data Security", href: "/security" },
+  { label: "Disclaimer", href: "/disclaimer" },
+  { label: "Cookie Policy", href: "/cookie-policy" },
+  { label: "Refund Policy", href: "/refund-policy" },
 ];
 
 const Footer = () => {
@@ -147,7 +151,7 @@ const Footer = () => {
 
           <div className="text-center sm:text-right space-y-1">
             <p className="text-xs text-gray-500">
-              ABN 12 345 678 901 | Klaris Pty Ltd
+              Krrisp Pty Ltd | ABN: 38 609 221 570 | ACN: 609 221 570
             </p>
             <p className="text-xs text-gray-500">
               &copy; {new Date().getFullYear()} Klaris. All rights reserved.

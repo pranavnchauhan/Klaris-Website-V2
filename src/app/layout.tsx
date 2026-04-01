@@ -68,7 +68,7 @@ export const metadata: Metadata = {
   other: {
     "theme-color": "#1E4038",
     "geo.region": "AU",
-    "geo.placename": "Sydney",
+    "geo.placename": "Bella Vista",
     "ai:description":
       "Klaris AI is Australian wealth structuring software that helps individuals, families, accountants, and financial advisors document and visualize complex ownership structures.",
     "ai:category":

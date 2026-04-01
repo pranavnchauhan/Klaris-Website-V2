@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 export const metadata: Metadata = {
   title: "Terms of Service | Klaris AI - Wealth Planning Software Australia",
   description:
-    "Legal terms for using Australia's leading wealth planning software.",
+    "Legal terms for using Australia's trusted wealth planning software.",
   alternates: {
     canonical: "https://klaris.com.au/terms",
   },
@@ -42,7 +42,7 @@ export default function TermsPage() {
             "@type": "WebPage",
             name: "Terms of Service",
             description:
-              "Legal terms for using Australia's leading wealth planning software.",
+              "Legal terms for using Australia's trusted wealth planning software.",
             url: "https://klaris.com.au/terms",
             publisher: {
               "@type": "Organization",
@@ -340,12 +340,14 @@ export default function TermsPage() {
               </p>
 
               <h3 className="text-lg font-semibold text-primary mb-3">
-                Satisfaction Guarantee
+                No Processing Guarantee
               </h3>
               <p className="text-foreground/80 mb-6">
-                We offer a satisfaction guarantee for new subscribers. Details
-                of the guarantee period and conditions are displayed at the time
-                of subscription.
+                Klaris is a data management and visualisation platform. You input
+                your financial structure data and Klaris organises and displays it.
+                We do not process your data to produce new financial insights or
+                recommendations. As such, no satisfaction or outcome guarantee
+                applies to the use of the Platform.
               </p>
 
               <h3 className="text-lg font-semibold text-primary mb-3">
@@ -374,10 +376,10 @@ export default function TermsPage() {
                 Refund Policy
               </h3>
               <p className="text-foreground/80 mb-6">
-                Refunds are handled on a case-by-case basis. If you are within
-                the satisfaction guarantee period, you may be eligible for a
-                full refund. Outside the guarantee period, partial refunds may
-                be considered at our discretion. To request a refund, contact us
+                Refunds are handled on a case-by-case basis. We do not provide
+                refunds for partial months of subscription. If you believe a
+                charge was made in error, contact us within 14 days. Refunds
+                may be considered at our discretion. To request a refund, contact us
                 at{" "}
                 <a
                   href="mailto:info@krrispdigital.com.au"
@@ -879,7 +881,7 @@ export default function TermsPage() {
                   </a>
                 </p>
                 <p className="text-foreground/80 mb-1">
-                  <strong>Entity:</strong> Krrisp Pty Ltd (ACN: 609 221 570)
+                  <strong>Entity:</strong> Krrisp Pty Ltd (ABN: 38 609 221 570 | ACN: 609 221 570)
                 </p>
                 <p className="text-foreground/80">
                   <strong>Website:</strong>{" "}

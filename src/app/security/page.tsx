@@ -330,12 +330,15 @@ export default function SecurityPage() {
                 Internal Access
               </h3>
               <p className="text-foreground/80">
-                Klaris AI staff have zero visibility into user financial
-                structure data. Our administrative tools are designed to manage
-                platform operations (account status, subscription management,
-                technical support) without exposing any financial data entered by
-                users. Database access is restricted to essential maintenance
-                operations and is logged.
+                Our systems are designed so that Klaris staff do not have
+                routine access to user financial structure data. Administrative
+                tools manage platform operations (account status, subscription
+                management, technical support) without exposing financial data
+                entered by users. When support requires data access, this is
+                strictly opt-in by the user and fully audit-logged. In the event
+                of a technical incident, our response team may access the minimum
+                data necessary to resolve the issue. Database access is restricted
+                to essential maintenance operations and is logged.
               </p>
             </section>
 
@@ -598,7 +601,7 @@ export default function SecurityPage() {
                   </a>
                 </p>
                 <p className="text-foreground/80 mb-1">
-                  <strong>Entity:</strong> Krrisp Pty Ltd (ACN: 609 221 570)
+                  <strong>Entity:</strong> Krrisp Pty Ltd (ABN: 38 609 221 570 | ACN: 609 221 570)
                 </p>
                 <p className="text-foreground/80">
                   <strong>Website:</strong>{" "}

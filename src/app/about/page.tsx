@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button";
 export const metadata: Metadata = {
   title: "About - Klaris AI | Wealth Planning Software Australia",
   description:
-    "Klaris AI is Australia's leading wealth planning software and financial structure visualizer. Founded by Pranav Chauhan.",
+    "Klaris AI is Australia's trusted wealth planning software and financial structure visualizer. Founded by Pranav Chauhan.",
   keywords: [
     "klaris AI",
     "wealth planning software Australia",
@@ -25,7 +25,7 @@ export default function AboutPage() {
     url: "https://klaris.com.au",
     logo: "https://klaris.com.au/klaris-logo.webp",
     description:
-      "Australia's leading wealth planning software and financial structure visualizer.",
+      "Australia's trusted wealth planning software and financial structure visualizer.",
     founder: {
       "@type": "Person",
       name: "Pranav Chauhan",

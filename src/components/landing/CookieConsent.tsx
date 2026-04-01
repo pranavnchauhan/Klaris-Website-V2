@@ -54,15 +54,13 @@ const CookieConsent = () => {
       <div className="max-w-[1200px] mx-auto px-5 py-4">
         <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
           <p className="text-sm text-muted-foreground">
-            We use cookies to improve your experience and analyse site traffic.
-            Read our{" "}
+            We use cookies to improve your experience on klaris.com.au. For details, see our{" "}
             <Link
-              href="/privacy"
+              href="/cookie-policy"
               className="underline hover:text-primary transition-colors"
             >
-              Privacy Policy
-            </Link>{" "}
-            for details.
+              Cookie Policy
+            </Link>.
           </p>
           <div className="flex items-center gap-3 shrink-0">
             <Button variant="outline" size="sm" onClick={handleDecline}>
