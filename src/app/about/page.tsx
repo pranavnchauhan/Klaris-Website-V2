@@ -6,7 +6,7 @@ import GlowingIcon from "@/components/landing/GlowingIcon";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-  title: "About - Klaris AI | Wealth Planning Software Australia",
+  title: "About",
   description:
     "Klaris AI is Australia's trusted wealth planning software and financial structure visualizer. Founded by Pranav Chauhan.",
   keywords: [
@@ -15,6 +15,12 @@ export const metadata: Metadata = {
     "financial structure visualizer",
   ],
   alternates: { canonical: "https://klaris.com.au/about" },
+  openGraph: {
+    title: "About | Klaris AI",
+    description:
+      "Klaris AI is Australia's trusted wealth planning software and financial structure visualizer. Founded by Pranav Chauhan.",
+    url: "https://klaris.com.au/about",
+  },
 };
 
 export default function AboutPage() {
@@ -62,11 +68,11 @@ export default function AboutPage() {
             <span>Our Story</span>
           </div>
           <h1 className="text-4xl font-bold tracking-tight text-primary sm:text-5xl lg:text-6xl text-center">
-            Klaris AI — The End of Financial Blind Spots.
+            Klaris AI. The End of Financial Blind Spots.
           </h1>
           <p className="mt-6 text-lg text-muted-foreground max-w-2xl mx-auto text-center">
             We believe every Australian family deserves complete visibility over their
-            financial world — trusts, entities, assets, and estate plans — all in one
+            financial world: trusts, entities, assets, and estate plans, all in one
             secure, intelligent platform.
           </p>
         </div>
@@ -93,7 +99,7 @@ export default function AboutPage() {
               complex business problems.
             </p>
             <blockquote className="border-l-4 border-primary/30 pl-6 italic text-muted-foreground text-base">
-              &ldquo;We don&rsquo;t just build software — we solve problems that keep
+              &ldquo;We don&rsquo;t just build software. We solve problems that keep
               business owners and families up at night. Klaris is the answer to a gap
               we saw in the Australian wealth management landscape.&rdquo;
             </blockquote>
@@ -107,7 +113,7 @@ export default function AboutPage() {
           <div className="max-w-3xl mx-auto text-center">
             <Image
               src="/pranav-chauhan.png"
-              alt="Pranav Chauhan — Founder and CEO of Klaris AI"
+              alt="Pranav Chauhan, Founder and CEO of Klaris AI"
               width={112}
               height={112}
               className="rounded-full mx-auto mb-6 border-4 border-primary/10"
@@ -122,7 +128,7 @@ export default function AboutPage() {
               Pranav founded Klaris after years of working with high-net-worth
               families, accountants, and financial advisors who all faced the same
               problem: no single place to see the full picture. Structures were
-              scattered across spreadsheets, filing cabinets, and different advisors —
+              scattered across spreadsheets, filing cabinets, and different advisors,
               leaving critical gaps that only surfaced during audits, disputes, or
               estate transitions.
             </p>
@@ -166,12 +172,12 @@ export default function AboutPage() {
             <blockquote className="text-center">
               <p className="text-xl md:text-2xl italic text-primary/90 leading-relaxed text-center">
                 &ldquo;I built Klaris because too many families discover gaps in their
-                financial picture when it&rsquo;s already too late — during a dispute,
+                financial picture when it&rsquo;s already too late: during a dispute,
                 an audit, or after losing someone. Klaris makes the invisible visible,
                 before it becomes a crisis.&rdquo;
               </p>
               <footer className="mt-6 text-sm text-muted-foreground text-center">
-                — Pranav Chauhan, Founder &amp; CEO
+                . Pranav Chauhan, Founder &amp; CEO
               </footer>
             </blockquote>
           </div>
@@ -193,7 +199,7 @@ export default function AboutPage() {
                 Australian families with trusts, companies, SMSFs, and property
                 portfolios have no single view of how it all connects. Information
                 lives in spreadsheets, accountant files, legal docs, and memory. When
-                something changes — a death, a divorce, a restructure — the gaps
+                something changes, such as a death, a divorce, or a restructure, the gaps
                 become painfully obvious.
               </p>
             </div>
@@ -204,7 +210,7 @@ export default function AboutPage() {
               <p className="text-muted-foreground">
                 Klaris maps your entire financial structure in one intelligent,
                 interactive graph. Trusts, entities, ownership chains, assets, and
-                estate plans — all visible, all connected, all secure. Advisors and
+                estate plans, all visible, all connected, all secure. Advisors and
                 family members collaborate in real time, with role-based access that
                 keeps sensitive information protected.
               </p>
@@ -229,7 +235,7 @@ export default function AboutPage() {
               </h3>
               <p className="text-sm text-muted-foreground text-center">
                 Built for Australian tax law, trust structures, SMSF rules, and estate
-                planning requirements. Not a US product adapted for AU — Klaris is
+                planning requirements. Not a US product adapted for AU. Klaris is
                 Australian from the ground up.
               </p>
             </div>
@@ -299,7 +305,7 @@ export default function AboutPage() {
             >
               Krrisp Digital
             </a>{" "}
-            portfolio — Australian-built technology for modern business.
+            portfolio: Australian-built technology for modern business.
           </p>
         </div>
       </section>

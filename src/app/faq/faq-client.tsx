@@ -4,12 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { HelpCircle, Calendar, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import {
-  Accordion,
-  AccordionItem,
-  AccordionTrigger,
-  AccordionContent,
-} from "@/components/ui/accordion";
+import { ChevronDown } from "lucide-react";
 
 interface FaqItem {
   question: string;
@@ -30,7 +25,7 @@ const categories: FaqCategory[] = [
       {
         question: "What is KRSP and how does the wealth visualization work?",
         answer:
-          "KRSP (Klaris Risk & Structure Profile) is our proprietary framework that analyses your entire financial structure — trusts, companies, SMSFs, and personal assets — then generates an interactive graph showing how everything connects. You can see ownership chains, beneficial interests, and potential gaps at a glance.",
+          "KRSP (Klaris Risk & Structure Profile) is our proprietary framework that analyses your entire financial structure, including trusts, companies, SMSFs, and personal assets. It then generates an interactive graph showing how everything connects. You can see ownership chains, beneficial interests, and potential gaps at a glance.",
       },
       {
         question: "Can Klaris handle complex multi-entity structures?",
@@ -51,12 +46,12 @@ const categories: FaqCategory[] = [
       {
         question: "Can my accountant and financial advisor both access Klaris?",
         answer:
-          "Yes. Klaris supports multi-advisor collaboration with role-based access. You can invite your accountant, financial planner, solicitor, and family members — each with tailored permissions. Advisors only see what you authorise them to see.",
+          "Yes. Klaris supports multi-advisor collaboration with role-based access. You can invite your accountant, financial planner, solicitor, and family members, each with tailored permissions. Advisors only see what you authorise them to see.",
       },
       {
         question: "How does sharing work between family members?",
         answer:
-          "You control who sees what. Family members can be invited with view-only access, edit access, or full admin rights. This is particularly useful for estate planning — you can share the structure with your adult children or power of attorney without giving them access to sensitive financial details.",
+          "You control who sees what. Family members can be invited with view-only access, edit access, or full admin rights. This is particularly useful for estate planning. You can share the structure with your adult children or power of attorney without giving them access to sensitive financial details.",
       },
       {
         question: "Can advisors use Klaris for multiple clients?",
@@ -93,7 +88,7 @@ const categories: FaqCategory[] = [
       {
         question: "Can Klaris help with tax planning?",
         answer:
-          "Klaris is a visibility and documentation tool — it helps you and your advisors see your full structure, which is the essential first step for effective tax planning. While Klaris does not provide tax advice, it gives your accountant the complete picture they need to identify opportunities and risks.",
+          "Klaris is a visibility and documentation tool. It helps you and your advisors see your full structure, which is the essential first step for effective tax planning. While Klaris does not provide tax advice, it gives your accountant the complete picture they need to identify opportunities and risks.",
       },
       {
         question: "How does Klaris support estate planning?",
@@ -104,7 +99,7 @@ const categories: FaqCategory[] = [
         question:
           "Can I track beneficiary nominations across all my entities?",
         answer:
-          "Yes. One of the most common blind spots in Australian wealth structures is outdated or missing beneficiary nominations — especially across super funds and insurance policies. Klaris tracks all nominations in one place and alerts you when they need updating.",
+          "Yes. One of the most common blind spots in Australian wealth structures is outdated or missing beneficiary nominations, especially across super funds and insurance policies. Klaris tracks all nominations in one place and alerts you when they need updating.",
       },
     ],
   },
@@ -125,7 +120,7 @@ const categories: FaqCategory[] = [
       {
         question: "Do I need technical knowledge to use Klaris?",
         answer:
-          "Not at all. Klaris is designed for everyday Australians, not technologists. If you can use online banking, you can use Klaris. Our onboarding team walks you through the setup, and the interface is intuitive and visual — no spreadsheets, no jargon.",
+          "Not at all. Klaris is designed for everyday Australians, not technologists. If you can use online banking, you can use Klaris. Our onboarding team walks you through the setup, and the interface is intuitive and visual. No spreadsheets, no jargon.",
       },
     ],
   },
@@ -152,7 +147,7 @@ const categories: FaqCategory[] = [
         question:
           "Is Klaris suitable for self-managed super funds (SMSFs)?",
         answer:
-          "Klaris is ideal for SMSFs. You can map fund members, investment strategies, beneficiary nominations, insurance within super, pension streams, and compliance requirements — all in one visual structure that your SMSF auditor and advisor can access.",
+          "Klaris is ideal for SMSFs. You can map fund members, investment strategies, beneficiary nominations, insurance within super, pension streams, and compliance requirements, all in one visual structure that your SMSF auditor and advisor can access.",
       },
     ],
   },
@@ -176,7 +171,7 @@ export default function FaqClient() {
             Everything You Need to Know
           </h1>
           <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto text-center">
-            Find answers about Klaris AI wealth planning software — security,
+            Find answers about Klaris AI wealth planning software: security,
             compliance, advisor collaboration, estate planning, and getting started.
           </p>
         </div>
@@ -188,7 +183,7 @@ export default function FaqClient() {
           <p className="text-sm text-muted-foreground text-center">
             Reviewed by{" "}
             <span className="font-medium text-primary">Pranav Chauhan</span>,
-            Founder &amp; CEO of Klaris AI — updated March 2026
+            Founder &amp; CEO of Klaris AI, updated March 2026
           </p>
         </div>
       </section>
@@ -218,21 +213,22 @@ export default function FaqClient() {
               <h2 className="text-xl font-semibold text-primary mb-6 text-center">
                 {currentCategory.label}
               </h2>
-              <Accordion type="single" collapsible className="w-full">
+              <div className="w-full divide-y">
                 {currentCategory.items.map((item, index) => (
-                  <AccordionItem
+                  <details
                     key={`${currentCategory.id}-${index}`}
-                    value={`${currentCategory.id}-${index}`}
+                    className="group py-4"
                   >
-                    <AccordionTrigger className="text-left text-base">
+                    <summary className="flex items-center justify-between cursor-pointer text-left text-base font-medium text-foreground hover:text-primary transition-colors list-none [&::-webkit-details-marker]:hidden">
                       {item.question}
-                    </AccordionTrigger>
-                    <AccordionContent className="text-muted-foreground leading-relaxed">
+                      <ChevronDown className="h-4 w-4 shrink-0 ml-2 text-muted-foreground transition-transform group-open:rotate-180" />
+                    </summary>
+                    <p className="mt-3 text-muted-foreground leading-relaxed">
                       {item.answer}
-                    </AccordionContent>
-                  </AccordionItem>
+                    </p>
+                  </details>
                 ))}
-              </Accordion>
+              </div>
             </div>
           )}
         </div>

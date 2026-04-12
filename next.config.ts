@@ -8,6 +8,7 @@ const nextConfig: NextConfig = {
       { source: "/terms-and-conditions", destination: "/terms", permanent: true },
       { source: "/cookies", destination: "/cookie-policy", permanent: true },
       { source: "/cookies-policy", destination: "/cookie-policy", permanent: true },
+      { source: "/pricing", destination: "/contact", permanent: true },
     ];
   },
   async headers() {

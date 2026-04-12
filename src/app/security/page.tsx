@@ -3,11 +3,17 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-  title: "Data Security | Klaris AI - Wealth Planning Software Australia",
+  title: "Data Security",
   description:
     "Klaris AI Data Security Policy. AES-256 encryption, Australian data residency, bank-grade security.",
   alternates: {
     canonical: "https://klaris.com.au/security",
+  },
+  openGraph: {
+    title: "Data Security | Klaris AI",
+    description:
+      "Klaris AI Data Security Policy. AES-256 encryption, Australian data residency, bank-grade security.",
+    url: "https://klaris.com.au/security",
   },
 };
 
@@ -487,10 +493,10 @@ export default function SecurityPage() {
                 <li>
                   Report any suspected unauthorised access immediately to{" "}
                   <a
-                    href="mailto:info@krrispdigital.com.au"
+                    href="mailto:info@klaris.com.au"
                     className="text-accent hover:underline"
                   >
-                    info@krrispdigital.com.au
+                    info@klaris.com.au
                   </a>
                   .
                 </li>
@@ -594,10 +600,10 @@ export default function SecurityPage() {
                 <p className="text-foreground/80 mb-1">
                   <strong>Email:</strong>{" "}
                   <a
-                    href="mailto:info@krrispdigital.com.au"
+                    href="mailto:info@klaris.com.au"
                     className="text-accent hover:underline"
                   >
-                    info@krrispdigital.com.au
+                    info@klaris.com.au
                   </a>
                 </p>
                 <p className="text-foreground/80 mb-1">

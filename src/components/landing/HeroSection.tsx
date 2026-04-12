@@ -47,12 +47,12 @@ export default function HeroSection() {
 
             <p className="text-lg text-muted-foreground max-w-lg">
               Klaris gives you a single, secure place to map every trust, entity, and asset
-              your family holds — so nothing falls through the cracks.
+              your family holds, so nothing falls through the cracks.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" asChild>
-                <a href="#problem">
+                <a href="/contact">
                   Secure Your Legacy Now
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </a>
@@ -73,7 +73,7 @@ export default function HeroSection() {
           <div className="flex items-center justify-center">
             <YouTubeFacade
               videoId="iF6_-tx2RgI"
-              title="Klaris — Structure Your Wealth"
+              title="Klaris: Structure Your Wealth"
               caption="See how Klaris maps your entire wealth structure in minutes."
             />
           </div>

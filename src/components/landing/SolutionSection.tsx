@@ -24,7 +24,7 @@ const features = [
   {
     title: "Export & Share Anytime",
     description:
-      "Generate reports for your accountant, advisor, or family — beautifully formatted and always current.",
+      "Generate reports for your accountant, advisor, or family. Beautifully formatted and always current.",
   },
 ];
 

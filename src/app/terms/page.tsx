@@ -3,11 +3,17 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-  title: "Terms of Service | Klaris AI - Wealth Planning Software Australia",
+  title: "Terms of Service",
   description:
     "Legal terms for using Australia's trusted wealth planning software.",
   alternates: {
     canonical: "https://klaris.com.au/terms",
+  },
+  openGraph: {
+    title: "Terms of Service | Klaris AI",
+    description:
+      "Legal terms for using Australia's trusted wealth planning software.",
+    url: "https://klaris.com.au/terms",
   },
 };
 
@@ -382,10 +388,10 @@ export default function TermsPage() {
                 may be considered at our discretion. To request a refund, contact us
                 at{" "}
                 <a
-                  href="mailto:info@krrispdigital.com.au"
+                  href="mailto:info@klaris.com.au"
                   className="text-accent hover:underline"
                 >
-                  info@krrispdigital.com.au
+                  info@klaris.com.au
                 </a>
                 .
               </p>
@@ -541,10 +547,10 @@ export default function TermsPage() {
                 You can request complete deletion of your data by contacting us
                 at{" "}
                 <a
-                  href="mailto:info@krrispdigital.com.au"
+                  href="mailto:info@klaris.com.au"
                   className="text-accent hover:underline"
                 >
-                  info@krrispdigital.com.au
+                  info@klaris.com.au
                 </a>
                 . Upon account closure, financial structure data will be deleted
                 within 90 days. Certain records may be retained as required by
@@ -818,10 +824,10 @@ export default function TermsPage() {
                 us to attempt to resolve the dispute informally. Please email us
                 at{" "}
                 <a
-                  href="mailto:info@krrispdigital.com.au"
+                  href="mailto:info@klaris.com.au"
                   className="text-accent hover:underline"
                 >
-                  info@krrispdigital.com.au
+                  info@klaris.com.au
                 </a>{" "}
                 with a detailed description of the issue. We will make a genuine
                 effort to resolve disputes within 30 days.
@@ -874,10 +880,10 @@ export default function TermsPage() {
                 <p className="text-foreground/80 mb-1">
                   <strong>Email:</strong>{" "}
                   <a
-                    href="mailto:info@krrispdigital.com.au"
+                    href="mailto:info@klaris.com.au"
                     className="text-accent hover:underline"
                   >
-                    info@krrispdigital.com.au
+                    info@klaris.com.au
                   </a>
                 </p>
                 <p className="text-foreground/80 mb-1">

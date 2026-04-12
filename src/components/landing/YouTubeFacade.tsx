@@ -63,7 +63,7 @@ export default function YouTubeFacade({ videoId, title, caption }: YouTubeFacade
       {caption && <p className="mt-3 text-center text-xs text-muted-foreground">{caption}</p>}
       <noscript>
         <a href={`https://youtu.be/${videoId}`} target="_blank" rel="noopener noreferrer" className="block text-center text-primary underline mt-2 text-sm">
-          {title} — Watch on YouTube
+          {title}: Watch on YouTube
         </a>
       </noscript>
     </div>

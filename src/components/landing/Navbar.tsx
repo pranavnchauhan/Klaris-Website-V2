@@ -30,7 +30,7 @@ const Navbar = () => {
             />
           </Link>
 
-          <nav className="hidden md:flex items-center gap-8">
+          <nav aria-label="Main navigation" className="hidden md:flex items-center gap-8">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
@@ -81,7 +81,7 @@ const Navbar = () => {
         </div>
 
         {mobileMenuOpen && (
-          <nav className="md:hidden pt-4 pb-2 border-t border-border mt-4">
+          <nav aria-label="Mobile navigation" className="md:hidden pt-4 pb-2 border-t border-border mt-4">
             <div className="flex flex-col gap-4">
               {navLinks.map((link) => (
                 <Link

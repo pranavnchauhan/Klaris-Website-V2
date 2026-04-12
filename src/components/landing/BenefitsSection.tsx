@@ -23,7 +23,7 @@ const benefits: { icon: typeof Eye; title: string; description: string; color: I
     icon: Heart,
     title: "Peace of Mind",
     description:
-      "Know that your family can find and understand everything if they ever need to — without relying on your memory.",
+      "Know that your family can find and understand everything if they ever need to, without relying on your memory.",
     color: "rose",
   },
   {
@@ -44,7 +44,7 @@ const benefits: { icon: typeof Eye; title: string; description: string; color: I
     icon: Share2,
     title: "Export & Share",
     description:
-      "Generate professional reports for your advisor, accountant, or family at any time — always current, always accurate.",
+      "Generate professional reports for your advisor, accountant, or family at any time. Always current, always accurate.",
     color: "violet",
   },
 ];

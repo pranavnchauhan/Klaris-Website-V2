@@ -10,7 +10,7 @@ const problems: { icon: typeof Building2; title: string; description: string; co
     icon: Building2,
     title: "Fragmented Ownership",
     description:
-      "Trusts, companies, and assets scattered across spreadsheets, emails, and filing cabinets — with no single source of truth.",
+      "Trusts, companies, and assets scattered across spreadsheets, emails, and filing cabinets, with no single source of truth.",
     color: "rose",
   },
   {

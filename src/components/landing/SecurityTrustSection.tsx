@@ -10,7 +10,7 @@ const securityFeatures: { icon: typeof Shield; title: string; description: strin
     icon: Shield,
     title: "AES-256 Encryption",
     description:
-      "Your data is encrypted at rest and in transit using AES-256 — the same standard used by banks and government agencies.",
+      "Your data is encrypted at rest and in transit using AES-256, the same standard used by banks and government agencies.",
     color: "blue",
   },
   {

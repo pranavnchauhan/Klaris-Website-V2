@@ -26,6 +26,7 @@ export const metadata: Metadata = {
     "portfolio visualization tools",
     "family office planning tools",
   ],
+  alternates: { canonical: "https://klaris.com.au" },
   authors: [{ name: "Krrisp Digital" }],
   robots: { index: true, follow: true },
   openGraph: {
@@ -101,6 +102,9 @@ export default function RootLayout({
         <link rel="dns-prefetch" href="https://app.klaris.com.au" />
       </head>
       <body>
+        <a href="#main-content" className="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-[100] focus:bg-primary focus:text-primary-foreground focus:px-4 focus:py-2 focus:rounded-md focus:text-sm">
+          Skip to main content
+        </a>
         {/* GTM noscript */}
         <noscript>
           <iframe
@@ -112,22 +116,39 @@ export default function RootLayout({
         </noscript>
 
         <Navbar />
-        {children}
+        <main id="main-content">{children}</main>
         <Footer />
         <CookieConsent />
 
-        {/* Deferred Analytics */}
+        {/* Deferred Analytics — gated behind cookie consent */}
         <Script id="klaris-analytics" strategy="lazyOnload">
           {`
+            // Default consent to denied — CookieConsent component updates on accept
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            window.gtag = gtag;
+            gtag('consent', 'default', {
+              analytics_storage: 'denied',
+              ad_storage: 'denied',
+              ad_user_data: 'denied',
+              ad_personalization: 'denied',
+              wait_for_update: 500
+            });
+            // Restore consent if previously accepted
+            if (localStorage.getItem('klaris-cookie-consent') === 'accepted') {
+              gtag('consent', 'update', {
+                analytics_storage: 'granted',
+                ad_storage: 'granted',
+                ad_user_data: 'granted',
+                ad_personalization: 'granted'
+              });
+            }
             // GA4
             var gtagScript = document.createElement('script');
             gtagScript.async = true;
             gtagScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-WH940LK0Y2';
             document.head.appendChild(gtagScript);
             gtagScript.onload = function() {
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              window.gtag = gtag;
               gtag('js', new Date());
               gtag('config', 'G-WH940LK0Y2');
               // AI Referral Tracking

@@ -2,10 +2,16 @@ import type { Metadata } from "next";
 import ContactClient from "./contact-client";
 
 export const metadata: Metadata = {
-  title: "Contact - Klaris AI | Get in Touch",
+  title: "Contact",
   description:
     "Contact the Klaris AI team for demos, support, or partnership inquiries. Australian-built wealth planning software.",
   alternates: { canonical: "https://klaris.com.au/contact" },
+  openGraph: {
+    title: "Contact | Klaris AI",
+    description:
+      "Contact the Klaris AI team for demos, support, or partnership inquiries. Australian-built wealth planning software.",
+    url: "https://klaris.com.au/contact",
+  },
 };
 
 export default function ContactPage() {

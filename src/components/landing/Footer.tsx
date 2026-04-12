@@ -43,7 +43,7 @@ const Footer = () => {
             </Link>
             <p className="text-sm leading-relaxed max-w-md">
               Klaris gives Australian families and their advisors full visibility
-              over finances, assets, and estate plans — all in one secure place.
+              over finances, assets, and estate plans, all in one secure place.
             </p>
             <div className="flex items-center gap-2 text-sm text-gray-400">
               <svg

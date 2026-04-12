@@ -1,28 +1,16 @@
-# robots.txt for klaris.com.au
+User-agent: *
+Disallow:
+
 User-agent: GPTBot
 Allow: /
-User-agent: Google-Extended
-Allow: /
+
 User-agent: ClaudeBot
 Allow: /
+
 User-agent: PerplexityBot
 Allow: /
-User-agent: Anthropic-AI
+
+User-agent: Google-Extended
 Allow: /
-User-agent: ChatGPT-User
-Allow: /
-User-agent: Googlebot
-Allow: /
-User-agent: Bingbot
-Allow: /
-User-agent: *
-Disallow: /tmp/
-Disallow: /_lovable/
-Disallow: /workspaces/
-Disallow: /search/
-Disallow: /?s=
-Disallow: /*?s=
-Disallow: */feed/
-Disallow: /author/
-Allow: /
+
 Sitemap: https://klaris.com.au/sitemap.xml

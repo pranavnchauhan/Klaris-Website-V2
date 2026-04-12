@@ -11,7 +11,7 @@ const audiences: { icon: typeof User; title: string; description: string; color:
     icon: User,
     title: "Individuals & Families",
     description:
-      "See your full wealth picture — every trust, company, and asset — in one secure dashboard. Finally know exactly where you stand.",
+      "See your full wealth picture, every trust, company, and asset, all in one secure dashboard. Finally know exactly where you stand.",
     color: "blue",
   },
   {

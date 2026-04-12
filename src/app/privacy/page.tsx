@@ -3,11 +3,17 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | Klaris AI - Wealth Planning Software Australia",
+  title: "Privacy Policy",
   description:
     "How our wealth planning software Australia protects your financial structure data.",
   alternates: {
     canonical: "https://klaris.com.au/privacy",
+  },
+  openGraph: {
+    title: "Privacy Policy | Klaris AI",
+    description:
+      "How our wealth planning software Australia protects your financial structure data.",
+    url: "https://klaris.com.au/privacy",
   },
 };
 
@@ -232,10 +238,10 @@ export default function PrivacyPage() {
                 communications at any time by clicking the unsubscribe link in
                 any marketing email or by contacting us at{" "}
                 <a
-                  href="mailto:info@krrispdigital.com.au"
+                  href="mailto:info@klaris.com.au"
                   className="text-accent hover:underline"
                 >
-                  info@krrispdigital.com.au
+                  info@klaris.com.au
                 </a>
                 . Opting out of marketing does not affect transactional emails
                 related to your account.
@@ -414,10 +420,10 @@ export default function PrivacyPage() {
                 You can request complete deletion of your account and data by
                 contacting us at{" "}
                 <a
-                  href="mailto:info@krrispdigital.com.au"
+                  href="mailto:info@klaris.com.au"
                   className="text-accent hover:underline"
                 >
-                  info@krrispdigital.com.au
+                  info@klaris.com.au
                 </a>
                 . We will process deletion requests within 30 days and confirm
                 completion via email.
@@ -564,10 +570,10 @@ export default function PrivacyPage() {
                 that information as soon as possible. If you believe a child has
                 provided us with personal information, please contact us at{" "}
                 <a
-                  href="mailto:info@krrispdigital.com.au"
+                  href="mailto:info@klaris.com.au"
                   className="text-accent hover:underline"
                 >
-                  info@krrispdigital.com.au
+                  info@klaris.com.au
                 </a>
                 .
               </p>
@@ -644,10 +650,10 @@ export default function PrivacyPage() {
                 <li>
                   <strong>Contact us first</strong> &mdash; Email us at{" "}
                   <a
-                    href="mailto:info@krrispdigital.com.au"
+                    href="mailto:info@klaris.com.au"
                     className="text-accent hover:underline"
                   >
-                    info@krrispdigital.com.au
+                    info@klaris.com.au
                   </a>{" "}
                   with details of your complaint. We will investigate and
                   respond within 30 days.
@@ -701,10 +707,10 @@ export default function PrivacyPage() {
                 <p className="text-foreground/80 mb-1">
                   <strong>Email:</strong>{" "}
                   <a
-                    href="mailto:info@krrispdigital.com.au"
+                    href="mailto:info@klaris.com.au"
                     className="text-accent hover:underline"
                   >
-                    info@krrispdigital.com.au
+                    info@klaris.com.au
                   </a>
                 </p>
                 <p className="text-foreground/80 mb-1">

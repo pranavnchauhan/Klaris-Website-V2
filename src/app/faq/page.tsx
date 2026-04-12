@@ -2,17 +2,23 @@ import type { Metadata } from "next";
 import FaqClient from "./faq-client";
 
 export const metadata: Metadata = {
-  title: "FAQ - Klaris AI | Wealth Planning Software Australia Questions",
+  title: "FAQ",
   description:
-    "Answers about Klaris AI wealth planning software — pricing, security, Australian compliance, estate planning, advisor collaboration, and getting started.",
+    "Answers about Klaris AI wealth planning software: pricing, security, Australian compliance, estate planning, advisor collaboration, and getting started.",
   alternates: { canonical: "https://klaris.com.au/faq" },
+  openGraph: {
+    title: "FAQ | Klaris AI",
+    description:
+      "Answers about Klaris AI wealth planning software: pricing, security, Australian compliance, estate planning, advisor collaboration, and getting started.",
+    url: "https://klaris.com.au/faq",
+  },
 };
 
 const faqItems = [
   {
     question: "What is KRSP and how does the wealth visualization work?",
     answer:
-      "KRSP (Klaris Risk & Structure Profile) is our proprietary framework that analyses your entire financial structure — trusts, companies, SMSFs, and personal assets — then generates an interactive graph showing how everything connects. You can see ownership chains, beneficial interests, and potential gaps at a glance.",
+      "KRSP (Klaris Risk & Structure Profile) is our proprietary framework that analyses your entire financial structure, including trusts, companies, SMSFs, and personal assets. It then generates an interactive graph showing how everything connects. You can see ownership chains, beneficial interests, and potential gaps at a glance.",
   },
   {
     question: "Can Klaris handle complex multi-entity structures?",
@@ -27,12 +33,12 @@ const faqItems = [
   {
     question: "Can my accountant and financial advisor both access Klaris?",
     answer:
-      "Yes. Klaris supports multi-advisor collaboration with role-based access. You can invite your accountant, financial planner, solicitor, and family members — each with tailored permissions. Advisors only see what you authorise them to see.",
+      "Yes. Klaris supports multi-advisor collaboration with role-based access. You can invite your accountant, financial planner, solicitor, and family members, each with tailored permissions. Advisors only see what you authorise them to see.",
   },
   {
     question: "How does sharing work between family members?",
     answer:
-      "You control who sees what. Family members can be invited with view-only access, edit access, or full admin rights. This is particularly useful for estate planning — you can share the structure with your adult children or power of attorney without giving them access to sensitive financial details.",
+      "You control who sees what. Family members can be invited with view-only access, edit access, or full admin rights. This is particularly useful for estate planning. You can share the structure with your adult children or power of attorney without giving them access to sensitive financial details.",
   },
   {
     question: "Can advisors use Klaris for multiple clients?",
@@ -57,7 +63,7 @@ const faqItems = [
   {
     question: "Can Klaris help with tax planning?",
     answer:
-      "Klaris is a visibility and documentation tool — it helps you and your advisors see your full structure, which is the essential first step for effective tax planning. While Klaris does not provide tax advice, it gives your accountant the complete picture they need to identify opportunities and risks.",
+      "Klaris is a visibility and documentation tool. It helps you and your advisors see your full structure, which is the essential first step for effective tax planning. While Klaris does not provide tax advice, it gives your accountant the complete picture they need to identify opportunities and risks.",
   },
   {
     question: "How does Klaris support estate planning?",
@@ -67,7 +73,7 @@ const faqItems = [
   {
     question: "Can I track beneficiary nominations across all my entities?",
     answer:
-      "Yes. One of the most common blind spots in Australian wealth structures is outdated or missing beneficiary nominations — especially across super funds and insurance policies. Klaris tracks all nominations in one place and alerts you when they need updating.",
+      "Yes. One of the most common blind spots in Australian wealth structures is outdated or missing beneficiary nominations, especially across super funds and insurance policies. Klaris tracks all nominations in one place and alerts you when they need updating.",
   },
   {
     question: "How much does Klaris cost?",
@@ -82,7 +88,7 @@ const faqItems = [
   {
     question: "Do I need technical knowledge to use Klaris?",
     answer:
-      "Not at all. Klaris is designed for everyday Australians, not technologists. If you can use online banking, you can use Klaris. Our onboarding team walks you through the setup, and the interface is intuitive and visual — no spreadsheets, no jargon.",
+      "Not at all. Klaris is designed for everyday Australians, not technologists. If you can use online banking, you can use Klaris. Our onboarding team walks you through the setup, and the interface is intuitive and visual. No spreadsheets, no jargon.",
   },
   {
     question: "How do I get started?",
@@ -102,7 +108,7 @@ const faqItems = [
   {
     question: "Is Klaris suitable for self-managed super funds (SMSFs)?",
     answer:
-      "Klaris is ideal for SMSFs. You can map fund members, investment strategies, beneficiary nominations, insurance within super, pension streams, and compliance requirements — all in one visual structure that your SMSF auditor and advisor can access.",
+      "Klaris is ideal for SMSFs. You can map fund members, investment strategies, beneficiary nominations, insurance within super, pension streams, and compliance requirements, all in one visual structure that your SMSF auditor and advisor can access.",
   },
 ];
 

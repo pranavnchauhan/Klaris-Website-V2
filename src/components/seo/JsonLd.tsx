@@ -96,11 +96,6 @@ export default function JsonLd() {
           "SMSF Tracking",
           "Financial Visualization",
         ],
-        aggregateRating: {
-          "@type": "AggregateRating",
-          ratingValue: "5.0",
-          reviewCount: "10",
-        },
         sameAs: [
           "https://www.linkedin.com/company/krrisp-digital",
           "https://g.co/kgs/krrispdigital",

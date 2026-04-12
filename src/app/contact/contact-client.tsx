@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-import { Mail, MapPin, Calendar, Send, Briefcase } from "lucide-react";
+import { Mail, MapPin, Calendar, Send, Briefcase, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -197,6 +197,18 @@ export default function ContactClient() {
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
+                    <Phone className="h-5 w-5 text-primary mt-0.5 shrink-0" />
+                    <div>
+                      <p className="text-sm font-medium">Phone</p>
+                      <a
+                        href="tel:+61483966111"
+                        className="text-sm text-muted-foreground hover:text-primary transition-colors"
+                      >
+                        +61 483 966 111
+                      </a>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-3">
                     <MapPin className="h-5 w-5 text-primary mt-0.5 shrink-0" />
                     <div>
                       <p className="text-sm font-medium">Location</p>
@@ -236,7 +248,7 @@ export default function ContactClient() {
                     Financial Advisor Tools
                   </CardTitle>
                   <CardDescription>
-                    Accountants, financial planners, and solicitors — Klaris
+                    Accountants, financial planners, and solicitors: Klaris
                     offers volume licensing for your entire client base.
                   </CardDescription>
                 </CardHeader>

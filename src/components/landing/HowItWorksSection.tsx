@@ -25,7 +25,7 @@ const steps: { icon: typeof CreditCard; title: string; description: string; colo
     icon: GitBranch,
     title: "Map Your Wealth",
     description:
-      "See your entire wealth structure visualized — every entity, connection, and asset in one place.",
+      "See your entire wealth structure visualized: every entity, connection, and asset in one place.",
     color: "blue",
     step: 3,
   },

@@ -1,11 +1,17 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Disclaimer | Klaris AI - Wealth Planning Software Australia",
+  title: "Disclaimer",
   description:
     "Important disclaimers about Klaris AI wealth planning software. No financial advice provided.",
   alternates: {
     canonical: "https://klaris.com.au/disclaimer",
+  },
+  openGraph: {
+    title: "Disclaimer | Klaris AI",
+    description:
+      "Important disclaimers about Klaris AI wealth planning software. No financial advice provided.",
+    url: "https://klaris.com.au/disclaimer",
   },
 };
 

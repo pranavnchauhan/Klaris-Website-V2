@@ -1,12 +1,17 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title:
-    "Refund & Cancellation Policy | Klaris AI - Wealth Planning Software Australia",
+  title: "Refund Policy",
   description:
     "Refund and cancellation policy for Klaris AI subscription plans.",
   alternates: {
     canonical: "https://klaris.com.au/refund-policy",
+  },
+  openGraph: {
+    title: "Refund Policy | Klaris AI",
+    description:
+      "Refund and cancellation policy for Klaris AI subscription plans.",
+    url: "https://klaris.com.au/refund-policy",
   },
 };
 
