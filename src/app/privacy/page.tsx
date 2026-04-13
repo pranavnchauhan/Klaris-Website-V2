@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     canonical: "https://klaris.com.au/privacy",
   },
   openGraph: {
-    title: "Privacy Policy | Klaris AI",
+    title: "Privacy Policy | Klaris",
     description:
       "How our wealth planning software Australia protects your financial structure data.",
     url: "https://klaris.com.au/privacy",

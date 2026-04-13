@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     canonical: "https://klaris.com.au/refund-policy",
   },
   openGraph: {
-    title: "Refund Policy | Klaris AI",
+    title: "Refund Policy | Klaris",
     description:
       "Refund and cancellation policy for Klaris AI subscription plans.",
     url: "https://klaris.com.au/refund-policy",

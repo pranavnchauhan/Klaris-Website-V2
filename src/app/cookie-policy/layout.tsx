@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     canonical: "https://klaris.com.au/cookie-policy",
   },
   openGraph: {
-    title: "Cookie Policy | Klaris AI",
+    title: "Cookie Policy | Klaris",
     description:
       "How Klaris AI uses cookies and tracking technologies on our website.",
     url: "https://klaris.com.au/cookie-policy",

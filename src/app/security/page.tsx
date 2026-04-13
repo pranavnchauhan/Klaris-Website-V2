@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     canonical: "https://klaris.com.au/security",
   },
   openGraph: {
-    title: "Data Security | Klaris AI",
+    title: "Data Security | Klaris",
     description:
       "Klaris AI Data Security Policy. AES-256 encryption, Australian data residency, bank-grade security.",
     url: "https://klaris.com.au/security",

@@ -44,9 +44,8 @@ const Footer = () => {
               />
             </Link>
             <p className="text-sm leading-relaxed max-w-md">
-              Klaris is wealth structure software for Australian families,
-              accountants, and financial advisors. Map trusts, SMSFs, companies,
-              and family trust structures in one secure platform.
+              Klaris is wealth structure visualisation software for Australian
+              accountants and financial advisers serving high net worth clients.
             </p>
             <div className="flex items-center gap-2 text-sm text-gray-400">
               <svg

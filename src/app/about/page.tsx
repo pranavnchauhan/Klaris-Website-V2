@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "https://klaris.com.au/about" },
   openGraph: {
-    title: "About | Klaris AI",
+    title: "About | Klaris",
     description:
       "Klaris AI is Australia's trusted wealth planning software and financial structure visualizer. Founded by Pranav Chauhan.",
     url: "https://klaris.com.au/about",

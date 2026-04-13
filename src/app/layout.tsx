@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://klaris.com.au"),
   title: {
     default: "Klaris | Structure Your Wealth & Secure Your Legacy",
-    template: "%s | Klaris AI",
+    template: "%s | Klaris - Australian Wealth Structure Visualisation Software",
   },
   description:
     "Klaris is wealth structure visualisation software for Australian accountants, financial advisors, and high net worth families. Map trusts, SMSFs, companies, and family trust structures in one secure platform.",
@@ -72,11 +72,11 @@ export const metadata: Metadata = {
     "geo.region": "AU",
     "geo.placename": "Bella Vista",
     "ai:description":
-      "Klaris AI is Australian wealth structuring software that helps individuals, families, accountants, and financial advisors document and visualize complex ownership structures.",
+      "Klaris is Australian wealth structure visualisation software built for accountants and financial advisers serving high net worth clients. Maps trusts, SMSFs, companies, and inter-entity loans in one secure platform.",
     "ai:category":
       "AI Wealth Planning Tool, Wealth Structuring Software, Estate Planning Software, Financial Structure Visualizer",
     "ai:target_audience":
-      "Australian families with complex asset structures, accountants, financial advisors, estate planners",
+      "Australian accountants, financial advisers, and accounting firms serving high net worth clients and complex family groups",
     "ai:key_features":
       "AI financial planning platform, interactive wealth graphs, portfolio visualization tools, trust documentation, SMSF tracking",
     "ai:pricing":

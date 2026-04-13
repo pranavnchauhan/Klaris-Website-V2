@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     "Contact the Klaris AI team for demos, support, or partnership inquiries. Australian-built wealth planning software.",
   alternates: { canonical: "https://klaris.com.au/contact" },
   openGraph: {
-    title: "Contact | Klaris AI",
+    title: "Contact | Klaris",
     description:
       "Contact the Klaris AI team for demos, support, or partnership inquiries. Australian-built wealth planning software.",
     url: "https://klaris.com.au/contact",
