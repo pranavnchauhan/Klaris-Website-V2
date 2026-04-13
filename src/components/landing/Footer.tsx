@@ -12,6 +12,10 @@ const productLinks = [
   { label: "Contact", href: "/contact" },
 ];
 
+const resourceLinks = [
+  { label: "Blog", href: "/blog" },
+];
+
 const legalLinks = [
   { label: "Privacy Policy", href: "/privacy" },
   { label: "Terms of Service", href: "/terms" },
@@ -32,7 +36,7 @@ const Footer = () => {
       }`}
     >
       <div className="max-w-[1200px] mx-auto px-5 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-12">
           <div className="md:col-span-2 space-y-6">
             <Link href="/" aria-label="Klaris home">
               <Image
@@ -79,6 +83,24 @@ const Footer = () => {
             </h3>
             <ul className="space-y-3">
               {productLinks.map((link) => (
+                <li key={link.href}>
+                  <Link
+                    href={link.href}
+                    className="text-sm text-gray-400 hover:text-white transition-colors"
+                  >
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div className="space-y-4">
+            <h3 className="text-white font-semibold text-sm uppercase tracking-wider">
+              Resources
+            </h3>
+            <ul className="space-y-3">
+              {resourceLinks.map((link) => (
                 <li key={link.href}>
                   <Link
                     href={link.href}

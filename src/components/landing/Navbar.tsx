@@ -9,6 +9,7 @@ import { Menu, X, User } from "lucide-react";
 const navLinks = [
   { label: "For Accountants", href: "/for-accountants" },
   { label: "For Advisors", href: "/for-financial-advisors" },
+  { label: "Resources", href: "/blog" },
   { label: "FAQ", href: "/faq" },
   { label: "About", href: "/about" },
   { label: "Contact", href: "/contact" },
