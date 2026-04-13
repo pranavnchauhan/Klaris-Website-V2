@@ -3,13 +3,14 @@ import Link from "next/link";
 import {
   Calendar,
   Eye,
-  Users,
   RefreshCw,
+  Search,
+  Layers,
+  Users,
   Shield,
   Server,
   Lock,
   Scale,
-  Layers,
 } from "lucide-react";
 import GlowingIcon from "@/components/landing/GlowingIcon";
 import { Button } from "@/components/ui/button";
@@ -17,17 +18,17 @@ import { Button } from "@/components/ui/button";
 export const metadata: Metadata = {
   title: {
     absolute:
-      "Klaris for Financial Advisers | Wealth Structure Visualisation Software Australia",
+      "Klaris for Financial Advisors | Wealth Structure Visualisation Software Australia",
   },
   description:
-    "Klaris helps Australian financial advisers visualise client wealth structures, trusts, SMSFs, and entity relationships for clearer advice and better client conversations.",
-  alternates: { canonical: "https://klaris.com.au/for-financial-advisers" },
+    "Klaris helps Australian financial advisors present a coherent wealth picture across SMSFs, discretionary trusts, testamentary trusts, and companies for clearer reviews and better advice.",
+  alternates: { canonical: "https://klaris.com.au/for-financial-advisors" },
   openGraph: {
     title:
-      "Klaris for Financial Advisers | Wealth Structure Visualisation Software Australia",
+      "Klaris for Financial Advisors | Wealth Structure Visualisation Software Australia",
     description:
-      "Klaris helps Australian financial advisers visualise client wealth structures, trusts, SMSFs, and entity relationships for clearer advice and better client conversations.",
-    url: "https://klaris.com.au/for-financial-advisers",
+      "Klaris helps Australian financial advisors present a coherent wealth picture across SMSFs, discretionary trusts, testamentary trusts, and companies for clearer reviews and better advice.",
+    url: "https://klaris.com.au/for-financial-advisors",
   },
 };
 
@@ -40,26 +41,26 @@ interface FaqItem {
 
 const faqItems: FaqItem[] = [
   {
-    question:
-      "Does Klaris replace my financial planning or portfolio management software?",
+    question: "Is Klaris a replacement for our planning or CRM software?",
     answer: [
-      "No. Klaris is a structure visualisation layer, not a replacement for your planning, portfolio, or compliance tools.",
-      "You keep using your existing platforms for modelling, implementation, and reporting. Klaris gives you and your clients a shared visual map of how entities, trusts, SMSFs, and assets connect, so your advice conversations start with the full picture.",
+      "No. Klaris does not replace your planning tools or CRM.",
+      "It sits alongside them as a structure visualisation layer so you and your clients can see how SMSFs, trusts, companies, and personal entities fit together before you run numbers or scenarios.",
     ],
   },
   {
     question:
-      "How does Klaris work alongside a client's accountant?",
+      "How does Klaris fit into our reviews with high net worth clients?",
     answer: [
-      "Klaris is designed for multi-advisor collaboration. You and the client's accountant can both work from the same wealth structure view, with role-based permissions controlling what each party sees.",
-      "This means you can align on entity structures, succession plans, and risk areas without relying on email chains or separate spreadsheets. The client stays at the centre, and you each see what is relevant to your role.",
+      "You use Klaris as the starting point for reviews and strategy sessions.",
+      "Before each meeting, you open the client's structure map, update any changes, and use that map to guide conversation about current strategy, risks, and future planning. Reports and projections that you produce from your other tools then sit on top of this shared understanding.",
     ],
   },
   {
-    question: "What does the one-month trial involve?",
+    question:
+      "What does the free one-month trial involve for our practice?",
     answer: [
-      "For qualified financial advisory firms, we offer a free one-month trial so you can see Klaris with real client structures before you commit.",
-      "You select a small set of representative client groups, we help you apply the KRSP Framework to build their structure maps, and your team can see how Klaris fits into reviews, strategy sessions, and client presentations.",
+      "For qualified advisory practices, Klaris offers a free one-month trial so you can see it in use with real client structures.",
+      "You choose a small set of representative high net worth clients, we help you build their structure maps using the KRSP Framework, and you can see how that changes review preparation and client conversations before you make any long-term commitment.",
     ],
   },
 ];
@@ -68,7 +69,7 @@ function answerToText(paragraphs: string[]): string {
   return paragraphs.join("\n\n");
 }
 
-export default function ForFinancialAdvisersPage() {
+export default function ForFinancialAdvisorsPage() {
   const faqJsonLd = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -85,10 +86,10 @@ export default function ForFinancialAdvisersPage() {
   const webPageJsonLd = {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    name: "Klaris for Financial Advisers",
+    name: "Klaris for Financial Advisors",
     description:
-      "Klaris helps Australian financial advisers visualise client wealth structures, trusts, SMSFs, and entity relationships for clearer advice and better client conversations.",
-    url: "https://klaris.com.au/for-financial-advisers",
+      "Klaris helps Australian financial advisors present a coherent wealth picture across SMSFs, discretionary trusts, testamentary trusts, and companies for clearer reviews and better advice.",
+    url: "https://klaris.com.au/for-financial-advisors",
     publisher: {
       "@type": "Organization",
       name: "Klaris",
@@ -98,7 +99,7 @@ export default function ForFinancialAdvisersPage() {
     audience: {
       "@type": "Audience",
       audienceType:
-        "Australian financial advisers and advisory firms serving high net worth clients",
+        "Australian financial advisors and advisory practices serving high net worth clients",
     },
     breadcrumb: {
       "@type": "BreadcrumbList",
@@ -112,8 +113,8 @@ export default function ForFinancialAdvisersPage() {
         {
           "@type": "ListItem",
           position: 2,
-          name: "For Financial Advisers",
-          item: "https://klaris.com.au/for-financial-advisers",
+          name: "For Financial Advisors",
+          item: "https://klaris.com.au/for-financial-advisors",
         },
       ],
     },
@@ -134,11 +135,10 @@ export default function ForFinancialAdvisersPage() {
       <section className="py-10 md:py-14 bg-section-hero">
         <div className="max-w-[1200px] mx-auto px-5 text-center">
           <h1 className="text-4xl font-bold tracking-tight text-primary sm:text-5xl text-center">
-            Klaris for Financial Advisers
+            Klaris for Financial Advisors
           </h1>
           <p className="mt-6 text-lg text-muted-foreground max-w-2xl mx-auto text-center">
-            Show your clients how their wealth is structured, not just how it is
-            performing.
+            Give clients a clear, accurate view of their wealth structures.
           </p>
           <div className="mt-8">
             <Button size="lg" asChild>
@@ -148,7 +148,7 @@ export default function ForFinancialAdvisersPage() {
                 rel="noopener noreferrer"
               >
                 <Calendar className="mr-2 h-4 w-4" />
-                Book a free 1-month trial for your firm
+                Book a free 1-month trial for your practice
               </a>
             </Button>
           </div>
@@ -159,41 +159,36 @@ export default function ForFinancialAdvisersPage() {
       <section className="py-10 md:py-14">
         <div className="max-w-3xl mx-auto px-5">
           <h2 className="text-2xl font-bold text-primary sm:text-3xl mb-6 text-center">
-            The problem: advising on structures you cannot fully see
+            The reality: you cannot advise on what you cannot see clearly
           </h2>
           <p className="text-muted-foreground mb-6">
-            If you advise high net worth clients in Australia, you are often
-            working with structures that span multiple trusts, companies, SMSFs,
-            and personal holdings. But the full picture of how those entities
-            connect is rarely in one place.
+            If you advise Australian high net worth clients, you know how hard
+            it is to present a coherent picture of their affairs. Client
+            information lives in multiple systems and folders: SMSF reports in
+            one place, discretionary trust deeds in another, company registers
+            somewhere else, and personal assets often only in your notes.
           </p>
           <p className="text-muted-foreground mb-4">
-            In practice, this means:
+            The result is predictable:
           </p>
           <ul className="list-disc pl-6 space-y-2 text-muted-foreground mb-6">
             <li>
-              Relying on the client or their accountant to explain entity
-              relationships before you can advise
+              Annual reviews take longer than they should because you are
+              rebuilding the big picture from fragments
             </li>
             <li>
-              Discovering structures, loans, or beneficiary arrangements
-              mid-review that change the advice
+              Conversations about strategy are harder when clients cannot see
+              how everything connects
             </li>
             <li>
-              Spending time in strategy meetings explaining what you think the
-              structure looks like, when no one in the room has a single source
-              of truth
+              Entities get missed in planning, which can lead to advice gaps
+              and unintended risk
             </li>
           </ul>
-          <p className="text-muted-foreground mb-6">
-            Without a shared, visual view of the client group, advice
-            conversations start from incomplete information, and risk and
-            succession discussions lack the clarity they need.
-          </p>
           <p className="text-foreground font-medium">
             Klaris gives you and your clients a single, visual map of their
-            wealth structures, built for Australian entity types and trust
-            rules, so you can advise with the full picture in front of you.
+            wealth structures so you can spend more time advising and less time
+            reconstructing.
           </p>
         </div>
       </section>
@@ -203,44 +198,44 @@ export default function ForFinancialAdvisersPage() {
         <div className="max-w-[1200px] mx-auto px-5">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-2xl font-bold text-primary sm:text-3xl mb-4 text-center">
-              A structure visualisation layer for your advisory practice
+              A structure visualisation platform for Australian advisory
+              practices
             </h2>
             <p className="text-muted-foreground mb-4 text-center">
-              Klaris is wealth structure visualisation software for Australian
-              financial advisers who serve high net worth clients and complex
-              family groups. You remain the primary adviser; Klaris gives you
-              and your clients a shared, visual view of entities, relationships,
-              and flows.
+              Klaris is wealth structure visualisation software built in
+              Australia for financial advisors and advisory practices who work
+              with SMSFs, discretionary trusts, testamentary trusts, and complex
+              corporate structures. You remain the advice provider; Klaris helps
+              you show clients what their world actually looks like.
             </p>
           </div>
 
           <div className="max-w-3xl mx-auto mt-10">
             <h3 className="text-xl font-semibold text-primary mb-6 text-center">
-              Built for Australian financial advisers
+              Built for the way advisors think and talk
             </h3>
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
                 <span className="mt-1.5 h-2 w-2 rounded-full bg-primary shrink-0" />
                 <span className="text-muted-foreground">
-                  Focused on Australian structures: discretionary and unit
-                  trusts, companies, SMSFs, inter-entity loans, testamentary
-                  trusts, beneficiaries, and controllers.
+                  Works with the structures you use daily: SMSFs, discretionary
+                  trusts, unit trusts, testamentary trusts, companies, and
+                  personal entities.
                 </span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="mt-1.5 h-2 w-2 rounded-full bg-primary shrink-0" />
                 <span className="text-muted-foreground">
-                  Designed for advisory workflows: strategy meetings, annual
-                  reviews, and client presentations all anchored around a living
-                  structure map.
+                  Designed for planning and review conversations, not just
+                  compliance reporting.
                 </span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="mt-1.5 h-2 w-2 rounded-full bg-primary shrink-0" />
                 <span className="text-muted-foreground">
-                  B2B2C by design: your practice licenses Klaris, you bring it
-                  to your high net worth clients as part of your service, not
-                  the other way around.
+                  B2B2C by design: your practice licenses Klaris, you use it
+                  with your high net worth clients as part of your review and
+                  strategy process.
                 </span>
               </li>
             </ul>
@@ -248,11 +243,11 @@ export default function ForFinancialAdvisersPage() {
         </div>
       </section>
 
-      {/* How Klaris Helps Section */}
+      {/* How Klaris Supports Better Advice */}
       <section className="py-10 md:py-14">
         <div className="max-w-[1200px] mx-auto px-5">
           <h2 className="text-2xl font-bold text-primary sm:text-3xl mb-10 text-center">
-            How Klaris helps your advisory practice
+            How Klaris supports better advice
           </h2>
           <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             {/* Benefit 1 */}
@@ -261,28 +256,30 @@ export default function ForFinancialAdvisersPage() {
                 <GlowingIcon icon={Eye} color="teal" />
               </div>
               <h3 className="text-lg font-semibold text-primary text-center">
-                Advise with the full picture
+                Present a coherent wealth picture at every review
               </h3>
               <div className="text-sm text-muted-foreground space-y-3">
                 <p>
-                  Every client group gets a single, visual map that shows:
+                  Instead of jumping between reports and account summaries, you
+                  open one visual map that shows the client's structure:
                 </p>
                 <ul className="list-disc pl-5 space-y-1">
                   <li>
-                    All entities, trusts, and SMSFs in the group
+                    Where the SMSF sits in relation to family trusts and
+                    companies
                   </li>
                   <li>
-                    Ownership chains, trust interests, and inter-entity
-                    relationships
+                    Which entities hold which assets and liabilities
                   </li>
                   <li>
-                    Where control and economic benefit sit today, and where the
-                    client intends them to go
+                    Who controls what, and where beneficiaries and successors
+                    are intended to benefit
                   </li>
                 </ul>
                 <p>
-                  You walk into every meeting knowing how the structure works,
-                  not guessing from memory or scattered documents.
+                  Clients can see the whole picture at once, which makes it much
+                  easier to explain why you are recommending particular
+                  strategies or changes.
                 </p>
               </div>
             </div>
@@ -293,18 +290,19 @@ export default function ForFinancialAdvisersPage() {
                 <GlowingIcon icon={RefreshCw} color="blue" />
               </div>
               <h3 className="text-lg font-semibold text-primary text-center">
-                Stronger annual reviews
+                Reduce the time and cognitive load of annual reviews
               </h3>
               <div className="text-sm text-muted-foreground space-y-3">
                 <p>
-                  When you can see what has changed in a client group since the
-                  last review, the conversation shifts from reconstruction to
-                  strategy.
+                  Annual reviews often start with rebuilding the structure in
+                  your head before you can address current strategy. With
+                  Klaris, the structure is already documented and visual, so you
+                  focus on what has changed, what is planned, and where risks or
+                  opportunities have emerged.
                 </p>
                 <p>
-                  You spend less time asking the client to re-explain their
-                  structure and more time discussing risk, opportunity, and
-                  next steps.
+                  That shortens review prep time and makes the meetings
+                  themselves more focused and productive.
                 </p>
               </div>
             </div>
@@ -312,21 +310,21 @@ export default function ForFinancialAdvisersPage() {
             {/* Benefit 3 */}
             <div className="space-y-4">
               <div className="flex justify-center">
-                <GlowingIcon icon={Users} color="emerald" />
+                <GlowingIcon icon={Search} color="emerald" />
               </div>
               <h3 className="text-lg font-semibold text-primary text-center">
-                Align with the client's other advisers
+                Catch missed entities before they become advice gaps
               </h3>
               <div className="text-sm text-muted-foreground space-y-3">
                 <p>
-                  High net worth clients typically have an accountant, a
-                  solicitor, and sometimes multiple advisers. Klaris gives
-                  everyone a shared view of the structure, with role-based
-                  permissions controlling who sees what.
+                  When you can see every entity and relationship in one place,
+                  it becomes easier to identify missing pieces.
                 </p>
                 <p>
-                  This means fewer misalignments, fewer surprises, and a
-                  stronger advisory relationship for the client.
+                  You can spot structures that are not reflected in existing
+                  documentation, find entities that lack clear roles in the
+                  current plan, and raise those issues before they turn into
+                  problems for the client or their estate.
                 </p>
               </div>
             </div>
@@ -334,128 +332,66 @@ export default function ForFinancialAdvisersPage() {
         </div>
       </section>
 
-      {/* Security Section */}
+      {/* Features Section */}
       <section className="py-10 md:py-14 bg-muted/20">
         <div className="max-w-[1200px] mx-auto px-5">
-          <h2 className="text-2xl font-bold text-primary sm:text-3xl mb-4 text-center">
-            Security and compliance your practice can rely on
-          </h2>
-          <p className="text-muted-foreground mb-10 max-w-2xl mx-auto text-center">
-            Your clients trust you with sensitive financial and personal
-            information. Klaris is built to meet that standard.
-          </p>
-          <div className="grid sm:grid-cols-3 gap-8 max-w-4xl mx-auto">
-            <div className="text-center space-y-4">
-              <div className="flex justify-center">
-                <GlowingIcon icon={Server} color="teal" />
-              </div>
-              <h3 className="text-lg font-semibold text-primary text-center">
-                Australian hosting and data residency
-              </h3>
-              <p className="text-sm text-muted-foreground text-center">
-                Production data is hosted in Australian data centres so client
-                information remains within Australian jurisdiction. This
-                supports your obligations under the Australian Privacy Act and
-                your licensee requirements.
-              </p>
-            </div>
-            <div className="text-center space-y-4">
-              <div className="flex justify-center">
-                <GlowingIcon icon={Lock} color="blue" />
-              </div>
-              <h3 className="text-lg font-semibold text-primary text-center">
-                Encryption as standard
-              </h3>
-              <p className="text-sm text-muted-foreground text-center">
-                All connections to Klaris are encrypted in transit with modern
-                TLS. Data at rest is encrypted using AES-256 encryption, the
-                industry standard for protecting sensitive information.
-              </p>
-            </div>
-            <div className="text-center space-y-4">
-              <div className="flex justify-center">
-                <GlowingIcon icon={Scale} color="emerald" />
-              </div>
-              <h3 className="text-lg font-semibold text-primary text-center">
-                Privacy Act and APPs aligned
-              </h3>
-              <p className="text-sm text-muted-foreground text-center">
-                Klaris is designed with the Australian Privacy Principles in
-                mind. Our{" "}
-                <Link
-                  href="/privacy"
-                  className="text-primary underline underline-offset-4 hover:text-accent transition-colors"
-                >
-                  Privacy Policy
-                </Link>{" "}
-                explains how personal information is collected, stored, used,
-                and deleted, and we support response processes consistent with
-                the Notifiable Data Breaches scheme.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Key Features Section */}
-      <section className="py-10 md:py-14">
-        <div className="max-w-[1200px] mx-auto px-5">
           <h2 className="text-2xl font-bold text-primary sm:text-3xl mb-10 text-center">
-            Key features for advisory practices
+            Features advisors can rely on
           </h2>
           <div className="max-w-3xl mx-auto space-y-12">
             {/* Feature 1 */}
             <div>
               <h3 className="text-xl font-semibold text-primary mb-3">
-                1. One visual map for each client group
+                1. Visual maps for SMSFs and related entities
               </h3>
               <p className="text-muted-foreground mb-3">
-                Each client group gets a living structure map that shows
-                entities, ownership, control, and flows in one place.
+                Klaris lets you place the SMSF in context so it is not viewed in
+                isolation.
               </p>
               <p className="text-muted-foreground">
-                You can see trusts, companies, SMSFs, loans, and key parties at
-                a glance, and the model stays current as the structure evolves
-                over time.
+                You can show how the SMSF interacts with related companies and
+                trusts, where contributions and distributions flow, and how that
+                supports the client's long-term objectives.
               </p>
             </div>
 
             {/* Feature 2 */}
             <div>
               <h3 className="text-xl font-semibold text-primary mb-3">
-                2. Built for multi-advisor collaboration
+                2. Support for discretionary and testamentary trust planning
               </h3>
               <p className="text-muted-foreground mb-3">
-                Klaris supports collaboration between financial advisers,
-                accountants, lawyers, and the family where appropriate.
+                For clients with discretionary and testamentary trusts, Klaris
+                helps you make the structure tangible.
               </p>
               <p className="text-muted-foreground">
-                You control who is invited into each structure and what they can
-                see, so you can coordinate with other professionals without
-                losing control of the client relationship.
+                You can map trustees, appointors, beneficiaries, and key control
+                mechanisms so that discussions about family protection,
+                flexibility, and succession are based on a clear picture rather
+                than abstract descriptions.
               </p>
             </div>
 
             {/* Feature 3 */}
             <div>
               <h3 className="text-xl font-semibold text-primary mb-3">
-                3. A better tool for succession and risk conversations
+                3. Multi-advisor collaboration without losing control
               </h3>
               <p className="text-muted-foreground mb-3">
-                When you can show a client where control sits, where value
-                flows, and what happens if a key person is no longer involved,
-                succession conversations become concrete instead of abstract.
+                Where appropriate, Klaris supports collaboration between the
+                advisor, the client's accountant, their lawyer, and the family.
               </p>
               <p className="text-muted-foreground">
-                Klaris helps you move from explaining what might happen to
-                showing what the structure actually says today.
+                You decide who is invited into each structure and what they can
+                see, so everyone works from the same map while you retain
+                oversight of the advice relationship.
               </p>
             </div>
 
             {/* Feature 4 - KRSP */}
             <div>
               <h3 className="text-xl font-semibold text-primary mb-3">
-                4. KRSP: a consistent framework for documenting structures
+                4. KRSP: a framework for documenting client structures
               </h3>
               <p className="text-muted-foreground mb-4">
                 Klaris is built around the KRSP Framework: Know, Record,
@@ -467,8 +403,8 @@ export default function ForFinancialAdvisersPage() {
                     Know
                   </span>
                   <span className="text-muted-foreground">
-                    Identify every entity, trust, SMSF, and key party in the
-                    client group.
+                    Identify every relevant entity, trust, SMSF, and
+                    individual.
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
@@ -476,7 +412,8 @@ export default function ForFinancialAdvisersPage() {
                     Record
                   </span>
                   <span className="text-muted-foreground">
-                    Capture details and relationships in one consistent place.
+                    Capture the details and relationships accurately in one
+                    place.
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
@@ -484,7 +421,7 @@ export default function ForFinancialAdvisersPage() {
                     Structure
                   </span>
                   <span className="text-muted-foreground">
-                    Map ownership, control, and flows clearly.
+                    Show ownership, control, and flows clearly.
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
@@ -492,8 +429,8 @@ export default function ForFinancialAdvisersPage() {
                     Protect
                   </span>
                   <span className="text-muted-foreground">
-                    Make sure the structure supports the succession and risk
-                    outcomes your clients are aiming for.
+                    Ensure that structures support the intended succession and
+                    protection outcomes.
                   </span>
                 </li>
               </ul>
@@ -503,10 +440,10 @@ export default function ForFinancialAdvisersPage() {
       </section>
 
       {/* Short FAQ Section */}
-      <section className="py-10 md:py-14 bg-muted/20">
+      <section className="py-10 md:py-14">
         <div className="max-w-3xl mx-auto px-5">
           <h2 className="text-2xl font-bold text-primary sm:text-3xl mb-8 text-center">
-            Common questions from advisory firms
+            Common questions from advisory practices
           </h2>
           <div className="divide-y">
             {faqItems.map((item, idx) => (
@@ -557,32 +494,34 @@ export default function ForFinancialAdvisersPage() {
       <section className="py-10 md:py-14 section-cta">
         <div className="max-w-[1200px] mx-auto px-5 text-center">
           <h2 className="text-3xl font-bold text-primary-foreground sm:text-4xl mb-4 text-center">
-            Give your clients a clearer way to understand their structures
+            Help clients see what you already know about their structures
           </h2>
           <div className="max-w-2xl mx-auto text-primary-foreground/80 mb-8">
             <p className="mb-4 text-center">
-              If your advice conversations would be stronger with a shared,
-              visual view of the client group, Klaris is designed for you.
+              Your clients trust you with their SMSFs, their family trusts,
+              their testamentary arrangements, and their personal wealth. Klaris
+              helps you show them the structures you already understand in a way
+              that is clear, accurate, and practical for decision making.
             </p>
             <ul className="text-left space-y-2 max-w-xl mx-auto">
               <li className="flex items-start gap-2">
                 <span className="mt-1 shrink-0">-</span>
                 <span>
-                  Start with a small set of high net worth client groups.
+                  Bring a selected group of high net worth clients into Klaris.
                 </span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="mt-1 shrink-0">-</span>
                 <span>
-                  Build structure maps that stay current across reviews,
-                  instead of rebuilding the picture each year.
+                  Build complete structure maps once, then maintain them instead
+                  of starting from scattered documents each year.
                 </span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="mt-1 shrink-0">-</span>
                 <span>
-                  Use those maps to make risk, succession, and strategy
-                  conversations clearer for everyone involved.
+                  Use those maps to conduct shorter, clearer, and more focused
+                  reviews that highlight your value as an advisor.
                 </span>
               </li>
             </ul>
@@ -594,12 +533,12 @@ export default function ForFinancialAdvisersPage() {
               rel="noopener noreferrer"
             >
               <Calendar className="mr-2 h-4 w-4" />
-              Book a free 1-month trial for your firm
+              Book a free 1-month trial for your practice
             </a>
           </Button>
           <p className="mt-4 text-sm text-primary-foreground/60 max-w-xl mx-auto text-center">
-            See how Klaris fits into your advisory workflows using real client
-            structures, with no obligation and no need to change your existing
+            See how Klaris fits into your existing review and advice process
+            using real client structures, with no need to change your core
             systems on day one.
           </p>
         </div>
