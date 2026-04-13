@@ -17,9 +17,11 @@ export const metadata: Metadata = {
     url: "https://klaris.com.au/blog",
   },
   twitter: {
+    card: "summary_large_image",
     title: "Resources | Klaris - Wealth Structure Insights for Accountants",
     description:
-      "Practical guides for Australian accountants and financial advisers on trust documentation, SMSF structure mapping, and wealth structure visualisation.",
+      "Practical guides for Australian accountants and financial advisers on trust documentation, SMSF structure mapping, estate planning, and wealth structure visualisation.",
+    images: ["https://klaris.com.au/og-image.png"],
   },
 };
 

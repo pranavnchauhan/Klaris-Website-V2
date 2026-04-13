@@ -34,6 +34,12 @@ export async function generateMetadata({
       publishedTime: metadata.publishedAt,
       modifiedTime: metadata.updatedAt,
     },
+    twitter: {
+      card: "summary_large_image",
+      title: metadata.title,
+      description: metadata.description,
+      images: ["https://klaris.com.au/og-image.png"],
+    },
   };
 }
 
