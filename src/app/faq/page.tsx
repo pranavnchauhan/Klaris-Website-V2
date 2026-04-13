@@ -17,6 +17,13 @@ export const metadata: Metadata = {
       "Find answers about Klaris, the Australian wealth structure visualisation platform for accountants and financial advisers working with high net worth clients.",
     url: "https://klaris.com.au/faq",
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "FAQ | Klaris - Wealth Structure Visualisation Software Australia",
+    description:
+      "Find answers about Klaris, the Australian wealth structure visualisation platform for accountants and financial advisers working with high net worth clients.",
+    images: ["https://klaris.com.au/og-image.png"],
+  },
 };
 
 interface FaqItem {
