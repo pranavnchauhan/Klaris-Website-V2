@@ -132,7 +132,7 @@ export default function PrivacyPage() {
                 <li>Full name</li>
                 <li>Email address</li>
                 <li>
-                  Password (stored in hashed form &mdash; we never store plain
+                  Password (stored in hashed form - we never store plain
                   text passwords)
                 </li>
                 <li>Account type (Client or Advisor)</li>
@@ -289,19 +289,19 @@ export default function PrivacyPage() {
               </p>
               <ul className="list-disc pl-6 space-y-2 text-foreground/80 mb-6">
                 <li>
-                  <strong>Encryption in transit</strong> &mdash; SSL/TLS
+                  <strong>Encryption in transit</strong> - SSL/TLS
                   encryption with HSTS for all connections.
                 </li>
                 <li>
-                  <strong>Encryption at rest</strong> &mdash; AES-256 encryption
+                  <strong>Encryption at rest</strong> - AES-256 encryption
                   for all stored data.
                 </li>
                 <li>
-                  <strong>Row Level Security (RLS)</strong> &mdash; Database-level
+                  <strong>Row Level Security (RLS)</strong> - Database-level
                   isolation ensuring users can only access their own data.
                 </li>
                 <li>
-                  <strong>Secure authentication</strong> &mdash; Bcrypt password
+                  <strong>Secure authentication</strong> - Bcrypt password
                   hashing, email verification, optional 2FA and Google SSO.
                 </li>
               </ul>
@@ -337,18 +337,18 @@ export default function PrivacyPage() {
               </p>
               <ul className="list-disc pl-6 space-y-2 text-foreground/80 mb-6">
                 <li>
-                  <strong>Stripe</strong> &mdash; Payment processing (PCI-DSS
+                  <strong>Stripe</strong> - Payment processing (PCI-DSS
                   Level 1 certified). Receives your payment information only. We
                   never store card details on our servers.
                 </li>
                 <li>
-                  <strong>SendGrid</strong> &mdash; Transactional email delivery
+                  <strong>SendGrid</strong> - Transactional email delivery
                   (verification, password reset, notifications). Receives your
                   email address and name only. No financial data is included in
                   emails.
                 </li>
                 <li>
-                  <strong>Google Analytics</strong> &mdash; Anonymous usage
+                  <strong>Google Analytics</strong> - Anonymous usage
                   analytics. Receives anonymised browsing data only. IP
                   anonymisation is enabled.
                 </li>
@@ -440,27 +440,27 @@ export default function PrivacyPage() {
               </p>
               <ul className="list-disc pl-6 space-y-2 text-foreground/80 mb-6">
                 <li>
-                  <strong>Access</strong> &mdash; Request a copy of the personal
+                  <strong>Access</strong> - Request a copy of the personal
                   information we hold about you.
                 </li>
                 <li>
-                  <strong>Correct</strong> &mdash; Request correction of any
+                  <strong>Correct</strong> - Request correction of any
                   inaccurate or incomplete personal information.
                 </li>
                 <li>
-                  <strong>Delete</strong> &mdash; Request deletion of your
+                  <strong>Delete</strong> - Request deletion of your
                   personal information (subject to legal retention requirements).
                 </li>
                 <li>
-                  <strong>Export</strong> &mdash; Request a copy of your
+                  <strong>Export</strong> - Request a copy of your
                   financial structure data in a portable format.
                 </li>
                 <li>
-                  <strong>Withdraw Consent</strong> &mdash; Withdraw consent for
+                  <strong>Withdraw Consent</strong> - Withdraw consent for
                   marketing communications at any time.
                 </li>
                 <li>
-                  <strong>Lodge a Complaint</strong> &mdash; Lodge a complaint
+                  <strong>Lodge a Complaint</strong> - Lodge a complaint
                   with the Office of the Australian Information Commissioner
                   (OAIC) if you believe we have breached your privacy.
                 </li>
@@ -491,12 +491,12 @@ export default function PrivacyPage() {
               </p>
               <ul className="list-disc pl-6 space-y-2 text-foreground/80 mb-6">
                 <li>
-                  <strong>Essential Cookies</strong> &mdash; Required for the
+                  <strong>Essential Cookies</strong> - Required for the
                   Platform to function (session management, authentication).
                   These cannot be disabled.
                 </li>
                 <li>
-                  <strong>Analytics Cookies</strong> &mdash; Used to understand
+                  <strong>Analytics Cookies</strong> - Used to understand
                   how the Platform is used (Google Analytics). These can be
                   disabled through your browser settings or our cookie consent
                   tool.
@@ -532,11 +532,11 @@ export default function PrivacyPage() {
               </p>
               <ul className="list-disc pl-6 space-y-2 text-foreground/80 mb-6">
                 <li>
-                  <strong>Stripe</strong> (USA) &mdash; Processes payment
+                  <strong>Stripe</strong> (USA) - Processes payment
                   information.
                 </li>
                 <li>
-                  <strong>SendGrid</strong> (USA) &mdash; Processes email
+                  <strong>SendGrid</strong> (USA) - Processes email
                   delivery.
                 </li>
               </ul>
@@ -648,7 +648,7 @@ export default function PrivacyPage() {
               </p>
               <ol className="list-decimal pl-6 space-y-2 text-foreground/80 mb-6">
                 <li>
-                  <strong>Contact us first</strong> &mdash; Email us at{" "}
+                  <strong>Contact us first</strong> - Email us at{" "}
                   <a
                     href="mailto:info@klaris.com.au"
                     className="text-accent hover:underline"
@@ -659,7 +659,7 @@ export default function PrivacyPage() {
                   respond within 30 days.
                 </li>
                 <li>
-                  <strong>Escalate to the OAIC</strong> &mdash; If you are not
+                  <strong>Escalate to the OAIC</strong> - If you are not
                   satisfied with our response, you can lodge a complaint with
                   the Office of the Australian Information Commissioner:
                 </li>

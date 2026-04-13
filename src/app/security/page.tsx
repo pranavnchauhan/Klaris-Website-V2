@@ -184,11 +184,11 @@ export default function SecurityPage() {
               </p>
               <ul className="list-disc pl-6 space-y-2 text-foreground/80 mb-6">
                 <li>
-                  <strong>SSL/TLS encryption</strong> &mdash; All connections
+                  <strong>SSL/TLS encryption</strong> - All connections
                   use HTTPS with TLS 1.2 or higher.
                 </li>
                 <li>
-                  <strong>HSTS (HTTP Strict Transport Security)</strong> &mdash;
+                  <strong>HSTS (HTTP Strict Transport Security)</strong> -
                   Browsers are instructed to only connect via HTTPS, preventing
                   downgrade attacks.
                 </li>
@@ -206,7 +206,7 @@ export default function SecurityPage() {
               </p>
               <ul className="list-disc pl-6 space-y-2 text-foreground/80">
                 <li>
-                  <strong>AES-256 encryption</strong> &mdash; Industry-standard
+                  <strong>AES-256 encryption</strong> - Industry-standard
                   encryption used by financial institutions worldwide.
                 </li>
                 <li>
@@ -365,7 +365,7 @@ export default function SecurityPage() {
                   </h3>
                   <ul className="list-disc pl-6 space-y-1 text-foreground/80">
                     <li>
-                      PCI-DSS Level 1 certified &mdash; the highest level of
+                      PCI-DSS Level 1 certified - the highest level of
                       payment security certification.
                     </li>
                     <li>
@@ -516,19 +516,19 @@ export default function SecurityPage() {
               <ul className="list-disc pl-6 space-y-2 text-foreground/80">
                 <li>
                   <strong>APP 11 (Security of Personal Information)</strong>{" "}
-                  &mdash; We take reasonable steps to protect personal
+                  - We take reasonable steps to protect personal
                   information from misuse, interference, loss, and unauthorised
                   access, modification, or disclosure.
                 </li>
                 <li>
-                  <strong>APP 8 (Cross-border Disclosure)</strong> &mdash;
+                  <strong>APP 8 (Cross-border Disclosure)</strong> -
                   Financial structure data remains within Australian
                   jurisdiction. Where account-level data is processed
                   internationally (e.g., payment processing via Stripe), we
                   ensure appropriate safeguards are in place.
                 </li>
                 <li>
-                  <strong>Notifiable Data Breaches Scheme</strong> &mdash; We
+                  <strong>Notifiable Data Breaches Scheme</strong> - We
                   comply with the NDB scheme and will notify affected
                   individuals and the OAIC of eligible data breaches.
                 </li>

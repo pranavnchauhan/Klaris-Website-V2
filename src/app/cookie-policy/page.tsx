@@ -144,7 +144,7 @@ export default function CookiePolicyPage() {
               </p>
               <ul className="list-disc pl-6 space-y-2 text-foreground/80">
                 <li>
-                  <strong>Google Analytics</strong> &mdash; Anonymised usage
+                  <strong>Google Analytics</strong> - Anonymised usage
                   data.{" "}
                   <a
                     href="https://policies.google.com/privacy"
@@ -156,7 +156,7 @@ export default function CookiePolicyPage() {
                   </a>
                 </li>
                 <li>
-                  <strong>Stripe</strong> &mdash; Payment processing.{" "}
+                  <strong>Stripe</strong> - Payment processing.{" "}
                   <a
                     href="https://stripe.com/au/privacy"
                     target="_blank"
@@ -167,7 +167,7 @@ export default function CookiePolicyPage() {
                   </a>
                 </li>
                 <li>
-                  <strong>SendGrid</strong> &mdash; Email delivery. SendGrid
+                  <strong>SendGrid</strong> - Email delivery. SendGrid
                   does not set cookies on the public website.
                 </li>
               </ul>

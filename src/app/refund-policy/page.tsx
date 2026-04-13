@@ -62,7 +62,7 @@ export default function RefundPolicyPage() {
                 <strong>ACN:</strong> 609 221 570
               </p>
               <p className="text-foreground/80">
-                <strong>Product:</strong> Klaris AI &mdash; Wealth Planning
+                <strong>Product:</strong> Klaris AI - Wealth Planning
                 Software
               </p>
             </div>
