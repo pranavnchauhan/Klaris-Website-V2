@@ -30,6 +30,12 @@ export const metadata: Metadata = {
       "Klaris helps Australian financial advisors present a coherent wealth picture across SMSFs, discretionary trusts, testamentary trusts, and companies for clearer reviews and better advice.",
     url: "https://klaris.com.au/for-financial-advisors",
   },
+  twitter: {
+    title:
+      "Klaris for Financial Advisors | Wealth Structure Visualisation Software",
+    description:
+      "Map every client structure in one visual view. Built for Australian financial advisors working with SMSFs, trusts, and complex family groups.",
+  },
 };
 
 const BOOKING_URL = "https://cal.com/kd-pc/klaris-partnership-discussion";

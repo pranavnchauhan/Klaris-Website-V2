@@ -29,6 +29,12 @@ export const metadata: Metadata = {
       "Klaris helps Australian accountants visualise trusts, SMSFs, companies, and client wealth structures in one clear view for faster reviews and better succession planning.",
     url: "https://klaris.com.au/for-accountants",
   },
+  twitter: {
+    title:
+      "Klaris for Accountants | Wealth Structure Visualisation Software",
+    description:
+      "Give your firm and clients a clear, shared view of every trust, company, and SMSF. Built for Australian accountants serving high net worth clients.",
+  },
 };
 
 const BOOKING_URL = "https://cal.com/kd-pc/klaris-partnership-discussion";
