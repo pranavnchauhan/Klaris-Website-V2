@@ -16,7 +16,7 @@ const solutionsLinks = [
 const navLinks = [
   { label: "About", href: "/about" },
   { label: "FAQ", href: "/faq" },
-  { label: "Resources", href: "/blog" },
+  { label: "Blog", href: "/blog" },
   { label: "Contact", href: "/contact" },
 ];
 
@@ -147,7 +147,7 @@ const Navbar = () => {
               href="/blog"
               className="text-sm text-muted-foreground hover:text-primary transition-colors font-medium whitespace-nowrap"
             >
-              Resources
+              Blog
             </Link>
             <Link
               href="/contact"
@@ -263,7 +263,7 @@ const Navbar = () => {
                 className="text-muted-foreground hover:text-primary transition-colors font-medium py-2"
                 onClick={() => setMobileMenuOpen(false)}
               >
-                Resources
+                Blog
               </Link>
               <Link
                 href="/contact"
