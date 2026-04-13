@@ -28,17 +28,30 @@ export const metadata: Metadata = {
 export default function BlogPage() {
   const posts = getAllPosts();
   return (
-    <section className="max-w-5xl mx-auto px-5 py-10 md:py-14">
-      <h1 className="text-3xl font-bold text-primary mb-4">Resources</h1>
-      <p className="text-lg text-muted-foreground mb-12 max-w-2xl">
-        Practical guides for accountants and financial advisers working with
-        complex client structures.
-      </p>
-      <div className="grid gap-8 md:grid-cols-2">
-        {posts.map((post) => (
-          <ArticleCard key={post.slug} post={post} />
-        ))}
-      </div>
-    </section>
+    <>
+      {/* Hero */}
+      <section className="py-16 md:py-24 bg-section-hero">
+        <div className="max-w-[1200px] mx-auto px-5 text-center">
+          <h1 className="text-4xl font-bold tracking-tight text-primary sm:text-5xl text-center">
+            Resources
+          </h1>
+          <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto text-center">
+            Practical guides for accountants and financial advisers working with
+            complex client structures.
+          </p>
+        </div>
+      </section>
+
+      {/* Article Grid */}
+      <section className="py-16 md:py-24">
+        <div className="max-w-5xl mx-auto px-5">
+          <div className="grid gap-8 md:grid-cols-2">
+            {posts.map((post) => (
+              <ArticleCard key={post.slug} post={post} />
+            ))}
+          </div>
+        </div>
+      </section>
+    </>
   );
 }

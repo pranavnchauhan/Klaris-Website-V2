@@ -138,7 +138,7 @@ export default function ForFinancialAdvisorsPage() {
       />
 
       {/* Hero */}
-      <section className="py-10 md:py-14 bg-section-hero">
+      <section className="py-16 md:py-24 bg-section-hero">
         <div className="max-w-[1200px] mx-auto px-5 text-center">
           <h1 className="text-4xl font-bold tracking-tight text-primary sm:text-5xl text-center">
             Klaris for Financial Advisors
@@ -164,7 +164,7 @@ export default function ForFinancialAdvisorsPage() {
       </section>
 
       {/* Problem Section */}
-      <section className="py-10 md:py-14">
+      <section className="py-16 md:py-24">
         <div className="max-w-3xl mx-auto px-5">
           <h2 className="text-2xl font-bold text-primary sm:text-3xl mb-6 text-center">
             The reality: you cannot advise on what you cannot see clearly
@@ -202,7 +202,7 @@ export default function ForFinancialAdvisorsPage() {
       </section>
 
       {/* Solution / Platform Section */}
-      <section className="py-10 md:py-14 bg-muted/20">
+      <section className="py-16 md:py-24 bg-muted/20">
         <div className="max-w-[1200px] mx-auto px-5">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-2xl font-bold text-primary sm:text-3xl mb-4 text-center">
@@ -252,7 +252,7 @@ export default function ForFinancialAdvisorsPage() {
       </section>
 
       {/* How Klaris Supports Better Advice */}
-      <section className="py-10 md:py-14">
+      <section className="py-16 md:py-24">
         <div className="max-w-[1200px] mx-auto px-5">
           <h2 className="text-2xl font-bold text-primary sm:text-3xl mb-10 text-center">
             How Klaris supports better advice
@@ -341,7 +341,7 @@ export default function ForFinancialAdvisorsPage() {
       </section>
 
       {/* Features Section */}
-      <section className="py-10 md:py-14 bg-muted/20">
+      <section className="py-16 md:py-24 bg-muted/20">
         <div className="max-w-[1200px] mx-auto px-5">
           <h2 className="text-2xl font-bold text-primary sm:text-3xl mb-10 text-center">
             Features advisors can rely on
@@ -448,7 +448,7 @@ export default function ForFinancialAdvisorsPage() {
       </section>
 
       {/* Short FAQ Section */}
-      <section className="py-10 md:py-14">
+      <section className="py-16 md:py-24">
         <div className="max-w-3xl mx-auto px-5">
           <h2 className="text-2xl font-bold text-primary sm:text-3xl mb-8 text-center">
             Common questions from advisory practices
@@ -499,7 +499,7 @@ export default function ForFinancialAdvisorsPage() {
       </section>
 
       {/* Final CTA Section */}
-      <section className="py-10 md:py-14 section-cta">
+      <section className="py-16 md:py-24 section-cta">
         <div className="max-w-[1200px] mx-auto px-5 text-center">
           <h2 className="text-3xl font-bold text-primary-foreground sm:text-4xl mb-4 text-center">
             Help clients see what you already know about their structures

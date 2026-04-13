@@ -133,10 +133,10 @@ export default function ForFamiliesPage() {
       />
 
       {/* Hero */}
-      <section className="py-10 md:py-14 bg-section-hero">
+      <section className="py-16 md:py-24 bg-section-hero">
         <div className="max-w-[1200px] mx-auto px-5 text-center">
           <h1 className="text-4xl font-bold tracking-tight text-primary sm:text-5xl text-center">
-            Your family wealth, mapped in one place
+            Your Family Wealth, Mapped in One Place
           </h1>
           <p className="mt-6 text-lg text-muted-foreground max-w-2xl mx-auto text-center">
             Complex structures with trusts, companies, and SMSFs can be
@@ -156,7 +156,7 @@ export default function ForFamiliesPage() {
       </section>
 
       {/* Problem Section */}
-      <section className="py-10 md:py-14">
+      <section className="py-16 md:py-24">
         <div className="max-w-3xl mx-auto px-5">
           <h2 className="text-2xl font-bold text-primary sm:text-3xl mb-6 text-center">
             Most families manage their wealth across scattered documents
@@ -179,7 +179,7 @@ export default function ForFamiliesPage() {
       </section>
 
       {/* Solution Section */}
-      <section className="py-10 md:py-14 bg-muted/20">
+      <section className="py-16 md:py-24 bg-muted/20">
         <div className="max-w-3xl mx-auto px-5">
           <h2 className="text-2xl font-bold text-primary sm:text-3xl mb-6 text-center">
             One visual map of your entire family wealth structure
@@ -200,7 +200,7 @@ export default function ForFamiliesPage() {
       </section>
 
       {/* Feature List */}
-      <section className="py-10 md:py-14">
+      <section className="py-16 md:py-24">
         <div className="max-w-[1200px] mx-auto px-5">
           <h2 className="text-2xl font-bold text-primary sm:text-3xl mb-10 text-center">
             What your family can see in Klaris
@@ -283,7 +283,7 @@ export default function ForFamiliesPage() {
       </section>
 
       {/* Successors Section */}
-      <section className="py-10 md:py-14 bg-muted/20">
+      <section className="py-16 md:py-24 bg-muted/20">
         <div className="max-w-3xl mx-auto px-5">
           <h2 className="text-2xl font-bold text-primary sm:text-3xl mb-6 text-center">
             Clarity for successors before they need it
@@ -309,7 +309,7 @@ export default function ForFamiliesPage() {
       </section>
 
       {/* Working with Advisers Section */}
-      <section className="py-10 md:py-14">
+      <section className="py-16 md:py-24">
         <div className="max-w-3xl mx-auto px-5">
           <h2 className="text-2xl font-bold text-primary sm:text-3xl mb-6 text-center">
             A shared view for your family and your advisers
@@ -348,7 +348,7 @@ export default function ForFamiliesPage() {
       </section>
 
       {/* Built for Australia Section */}
-      <section className="py-10 md:py-14 bg-muted/20">
+      <section className="py-16 md:py-24 bg-muted/20">
         <div className="max-w-3xl mx-auto px-5">
           <h2 className="text-2xl font-bold text-primary sm:text-3xl mb-6 text-center">
             Built specifically for Australian trust law and SMSF
@@ -369,7 +369,7 @@ export default function ForFamiliesPage() {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-10 md:py-14">
+      <section className="py-16 md:py-24">
         <div className="max-w-3xl mx-auto px-5">
           <h2 className="text-2xl font-bold text-primary sm:text-3xl mb-8 text-center">
             Common questions from families
@@ -405,7 +405,7 @@ export default function ForFamiliesPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-10 md:py-14 section-cta">
+      <section className="py-16 md:py-24 section-cta">
         <div className="max-w-[1200px] mx-auto px-5 text-center">
           <h2 className="text-3xl font-bold text-primary-foreground sm:text-4xl mb-4 text-center">
             Ready to see your family wealth structure clearly?

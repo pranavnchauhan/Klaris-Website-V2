@@ -271,7 +271,7 @@ export default function FaqPage() {
       />
 
       {/* Hero */}
-      <section className="py-10 md:py-14 bg-section-hero">
+      <section className="py-16 md:py-24 bg-section-hero">
         <div className="max-w-[1200px] mx-auto px-5 text-center">
           <h1 className="text-4xl font-bold tracking-tight text-primary sm:text-5xl text-center">
             Frequently Asked Questions
@@ -296,7 +296,7 @@ export default function FaqPage() {
       </section>
 
       {/* FAQ Sections */}
-      <section className="py-10 md:py-14">
+      <section className="py-16 md:py-24">
         <div className="max-w-3xl mx-auto px-5">
           {faqSections.map((section, sIdx) => (
             <div key={sIdx} className={sIdx > 0 ? "mt-12" : ""}>
@@ -346,7 +346,7 @@ export default function FaqPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-10 md:py-14 section-cta">
+      <section className="py-16 md:py-24 section-cta">
         <div className="max-w-[1200px] mx-auto px-5 text-center">
           <h2 className="text-3xl font-bold text-primary-foreground sm:text-4xl mb-4 text-center">
             Ready to bring clarity to your client structures?
@@ -369,7 +369,7 @@ export default function FaqPage() {
       </section>
 
       {/* Still Have Questions */}
-      <section className="py-10 md:py-14">
+      <section className="py-16 md:py-24">
         <div className="max-w-[1200px] mx-auto px-5 text-center">
           <h3 className="text-lg font-semibold text-primary mb-2 text-center">
             Still have questions?

@@ -137,7 +137,7 @@ export default function ForAccountantsPage() {
       />
 
       {/* Hero */}
-      <section className="py-10 md:py-14 bg-section-hero">
+      <section className="py-16 md:py-24 bg-section-hero">
         <div className="max-w-[1200px] mx-auto px-5 text-center">
           <h1 className="text-4xl font-bold tracking-tight text-primary sm:text-5xl text-center">
             Klaris for Accountants
@@ -163,7 +163,7 @@ export default function ForAccountantsPage() {
       </section>
 
       {/* Problem Section */}
-      <section className="py-10 md:py-14">
+      <section className="py-16 md:py-24">
         <div className="max-w-3xl mx-auto px-5">
           <h2 className="text-2xl font-bold text-primary sm:text-3xl mb-6 text-center">
             The problem: fragmented client wealth and hidden gaps
@@ -205,7 +205,7 @@ export default function ForAccountantsPage() {
       </section>
 
       {/* Solution / Platform Section */}
-      <section className="py-10 md:py-14 bg-muted/20">
+      <section className="py-16 md:py-24 bg-muted/20">
         <div className="max-w-[1200px] mx-auto px-5">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-2xl font-bold text-primary sm:text-3xl mb-4 text-center">
@@ -255,7 +255,7 @@ export default function ForAccountantsPage() {
       </section>
 
       {/* How Klaris Helps Section */}
-      <section className="py-10 md:py-14">
+      <section className="py-16 md:py-24">
         <div className="max-w-[1200px] mx-auto px-5">
           <h2 className="text-2xl font-bold text-primary sm:text-3xl mb-10 text-center">
             How Klaris helps your firm
@@ -342,7 +342,7 @@ export default function ForAccountantsPage() {
       </section>
 
       {/* Security Section */}
-      <section className="py-10 md:py-14 bg-muted/20">
+      <section className="py-16 md:py-24 bg-muted/20">
         <div className="max-w-[1200px] mx-auto px-5">
           <h2 className="text-2xl font-bold text-primary sm:text-3xl mb-4 text-center">
             Security and compliance your partners can stand behind
@@ -405,7 +405,7 @@ export default function ForAccountantsPage() {
       </section>
 
       {/* Key Features Section */}
-      <section className="py-10 md:py-14">
+      <section className="py-16 md:py-24">
         <div className="max-w-[1200px] mx-auto px-5">
           <h2 className="text-2xl font-bold text-primary sm:text-3xl mb-10 text-center">
             Key features for accounting firms
@@ -511,7 +511,7 @@ export default function ForAccountantsPage() {
       </section>
 
       {/* Short FAQ Section */}
-      <section className="py-10 md:py-14 bg-muted/20">
+      <section className="py-16 md:py-24 bg-muted/20">
         <div className="max-w-3xl mx-auto px-5">
           <h2 className="text-2xl font-bold text-primary sm:text-3xl mb-8 text-center">
             Common questions from accounting firms
@@ -562,7 +562,7 @@ export default function ForAccountantsPage() {
       </section>
 
       {/* Final CTA Section */}
-      <section className="py-10 md:py-14 section-cta">
+      <section className="py-16 md:py-24 section-cta">
         <div className="max-w-[1200px] mx-auto px-5 text-center">
           <h2 className="text-3xl font-bold text-primary-foreground sm:text-4xl mb-4 text-center">
             Give your partners and clients a clearer way to see their structures
