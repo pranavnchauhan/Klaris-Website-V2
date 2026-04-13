@@ -5,6 +5,8 @@ import Image from "next/image";
 import { useInView } from "@/hooks/use-in-view";
 
 const productLinks = [
+  { label: "For Accountants", href: "/for-accountants" },
+  { label: "For Advisors", href: "/for-financial-advisors" },
   { label: "FAQ", href: "/faq" },
   { label: "About", href: "/about" },
   { label: "Contact", href: "/contact" },
@@ -42,8 +44,9 @@ const Footer = () => {
               />
             </Link>
             <p className="text-sm leading-relaxed max-w-md">
-              Klaris gives Australian families and their advisors full visibility
-              over finances, assets, and estate plans, all in one secure place.
+              Klaris is wealth structure software for Australian families,
+              accountants, and financial advisors. Map trusts, SMSFs, companies,
+              and family trust structures in one secure platform.
             </p>
             <div className="flex items-center gap-2 text-sm text-gray-400">
               <svg

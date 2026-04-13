@@ -20,13 +20,13 @@ export const metadata: Metadata = {
       "Klaris for Accountants | Wealth Structure Visualisation Software Australia",
   },
   description:
-    "Klaris helps Australian accountants visualise trusts, SMSFs, companies, and client wealth structures in one clear view for faster reviews and better succession planning.",
+    "Klaris is trust structure mapping software for Australian accountants. Visualise client trusts, SMSFs, companies, and inter-entity loans in one view. Built for high net worth client workflows.",
   alternates: { canonical: "https://klaris.com.au/for-accountants" },
   openGraph: {
     title:
       "Klaris for Accountants | Wealth Structure Visualisation Software Australia",
     description:
-      "Klaris helps Australian accountants visualise trusts, SMSFs, companies, and client wealth structures in one clear view for faster reviews and better succession planning.",
+      "Klaris is trust structure mapping software for Australian accountants. Visualise client trusts, SMSFs, companies, and inter-entity loans in one view. Built for high net worth client workflows.",
     url: "https://klaris.com.au/for-accountants",
   },
   twitter: {
@@ -93,7 +93,7 @@ export default function ForAccountantsPage() {
     "@type": "WebPage",
     name: "Klaris for Accountants",
     description:
-      "Klaris helps Australian accountants visualise trusts, SMSFs, companies, and client wealth structures in one clear view for faster reviews and better succession planning.",
+      "Klaris is trust structure mapping software for Australian accountants. Visualise client trusts, SMSFs, companies, and inter-entity loans in one view. Built for high net worth client workflows.",
     url: "https://klaris.com.au/for-accountants",
     publisher: {
       "@type": "Organization",
@@ -143,8 +143,9 @@ export default function ForAccountantsPage() {
             Klaris for Accountants
           </h1>
           <p className="mt-6 text-lg text-muted-foreground max-w-2xl mx-auto text-center">
-            Give your firm and your clients a clear, shared view of every
-            structure.
+            Give your firm a single trust structure mapping tool for every
+            client group. Built for Australian accountants serving high net
+            worth clients.
           </p>
           <div className="mt-8">
             <Button size="lg" asChild>

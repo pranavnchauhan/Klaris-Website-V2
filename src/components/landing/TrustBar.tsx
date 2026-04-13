@@ -14,7 +14,7 @@ export default function TrustBar() {
     <section className="bg-muted/30 border-y py-10 md:py-12">
       <div className="max-w-[1200px] mx-auto px-5">
         <p className="text-center text-sm font-medium text-muted-foreground mb-8 uppercase tracking-wider">
-          One platform for every entity type
+          One wealth structure mapping tool for every entity type
         </p>
         <div className="flex flex-wrap items-center justify-center gap-8 md:gap-12 lg:gap-16">
           {entities.map((entity) => (

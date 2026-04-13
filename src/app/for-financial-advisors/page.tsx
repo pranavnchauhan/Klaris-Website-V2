@@ -21,13 +21,13 @@ export const metadata: Metadata = {
       "Klaris for Financial Advisors | Wealth Structure Visualisation Software Australia",
   },
   description:
-    "Klaris helps Australian financial advisors present a coherent wealth picture across SMSFs, discretionary trusts, testamentary trusts, and companies for clearer reviews and better advice.",
+    "Klaris is a wealth visibility platform for Australian financial advisors. Map SMSF structures, family trusts, and complex client wealth in one clear view. Built for high net worth advisory practices.",
   alternates: { canonical: "https://klaris.com.au/for-financial-advisors" },
   openGraph: {
     title:
       "Klaris for Financial Advisors | Wealth Structure Visualisation Software Australia",
     description:
-      "Klaris helps Australian financial advisors present a coherent wealth picture across SMSFs, discretionary trusts, testamentary trusts, and companies for clearer reviews and better advice.",
+      "Klaris is a wealth visibility platform for Australian financial advisors. Map SMSF structures, family trusts, and complex client wealth in one clear view. Built for high net worth advisory practices.",
     url: "https://klaris.com.au/for-financial-advisors",
   },
   twitter: {
@@ -94,7 +94,7 @@ export default function ForFinancialAdvisorsPage() {
     "@type": "WebPage",
     name: "Klaris for Financial Advisors",
     description:
-      "Klaris helps Australian financial advisors present a coherent wealth picture across SMSFs, discretionary trusts, testamentary trusts, and companies for clearer reviews and better advice.",
+      "Klaris is a wealth visibility platform for Australian financial advisors. Map SMSF structures, family trusts, and complex client wealth in one clear view. Built for high net worth advisory practices.",
     url: "https://klaris.com.au/for-financial-advisors",
     publisher: {
       "@type": "Organization",
@@ -144,7 +144,9 @@ export default function ForFinancialAdvisorsPage() {
             Klaris for Financial Advisors
           </h1>
           <p className="mt-6 text-lg text-muted-foreground max-w-2xl mx-auto text-center">
-            Give clients a clear, accurate view of their wealth structures.
+            Give your clients a single, visual map of their wealth structures.
+            Klaris is the wealth visibility platform built for Australian
+            financial advisors serving high net worth client groups.
           </p>
           <div className="mt-8">
             <Button size="lg" asChild>

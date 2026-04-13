@@ -12,19 +12,20 @@ export const metadata: Metadata = {
     template: "%s | Klaris AI",
   },
   description:
-    "The leading finance visibility platform for Australian families and advisors to manage trusts, SMSFs, and complex ownership structures.",
+    "Klaris is wealth structure visualisation software for Australian accountants, financial advisors, and high net worth families. Map trusts, SMSFs, companies, and family trust structures in one secure platform.",
   keywords: [
+    "wealth structure visualisation software",
+    "wealth structure software australia",
+    "family trust management software australia",
+    "SMSF wealth management platform",
+    "wealth structure mapping tool",
+    "trust structure mapping accountants",
+    "financial advisor wealth management software",
+    "wealth visibility platform financial advisors",
+    "high net worth client portal accountants",
+    "trust deed management software australia",
     "klaris AI",
-    "wealth structuring software",
-    "AI wealth planning tool",
-    "financial structure visualizer",
-    "wealth planning software Australia",
-    "financial advisor tools Australia",
-    "estate planning software",
-    "trust and SMSF structure software",
-    "AI financial planning platform",
-    "portfolio visualization tools",
-    "family office planning tools",
+    "estate planning software australia",
   ],
   alternates: { canonical: "https://klaris.com.au" },
   authors: [{ name: "Krrisp Digital" }],
@@ -120,10 +121,10 @@ export default function RootLayout({
         <Footer />
         <CookieConsent />
 
-        {/* Deferred Analytics — gated behind cookie consent */}
+        {/* Deferred Analytics - gated behind cookie consent */}
         <Script id="klaris-analytics" strategy="lazyOnload">
           {`
-            // Default consent to denied — CookieConsent component updates on accept
+            // Default consent to denied - CookieConsent component updates on accept
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             window.gtag = gtag;
