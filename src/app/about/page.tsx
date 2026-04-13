@@ -36,7 +36,7 @@ export default function AboutPage() {
       "@type": "Person",
       name: "Pranav Chauhan",
       jobTitle: "Founder & CEO",
-      url: "https://www.linkedin.com/in/pranav-chauhan-kd/",
+      url: "https://www.linkedin.com/in/pranav-chauhan-au/",
     },
     parentOrganization: {
       "@type": "Organization",
@@ -146,7 +146,7 @@ export default function AboutPage() {
             </div>
 
             <a
-              href="https://www.linkedin.com/in/pranav-chauhan-kd/"
+              href="https://www.linkedin.com/in/pranav-chauhan-au/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-sm text-primary hover:text-accent transition-colors underline-offset-4 hover:underline"
