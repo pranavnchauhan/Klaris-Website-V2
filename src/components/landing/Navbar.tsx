@@ -8,6 +8,7 @@ import { Menu, X, User } from "lucide-react";
 
 const navLinks = [
   { label: "For Accountants", href: "/for-accountants" },
+  { label: "For Advisers", href: "/for-financial-advisers" },
   { label: "FAQ", href: "/faq" },
   { label: "About", href: "/about" },
   { label: "Contact", href: "/contact" },
@@ -27,16 +28,16 @@ const Navbar = () => {
               width={400}
               height={130}
               priority
-              className="h-10 sm:h-12 md:h-14 w-auto"
+              className="h-10 sm:h-12 lg:h-14 w-auto"
             />
           </Link>
 
-          <nav aria-label="Main navigation" className="hidden md:flex items-center gap-8">
+          <nav aria-label="Main navigation" className="hidden lg:flex items-center gap-5">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
-                className="text-muted-foreground hover:text-primary transition-colors font-medium"
+                className="text-sm text-muted-foreground hover:text-primary transition-colors font-medium whitespace-nowrap"
               >
                 {link.label}
               </Link>
@@ -56,7 +57,7 @@ const Navbar = () => {
                 Login
               </a>
             </Button>
-            <Button asChild>
+            <Button asChild size="sm">
               <a
                 href="https://cal.com/kd-pc/klaris-partnership-discussion"
                 target="_blank"
@@ -69,7 +70,7 @@ const Navbar = () => {
           </nav>
 
           <button
-            className="md:hidden p-2 text-primary"
+            className="lg:hidden p-2 text-primary"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             aria-label="Toggle menu"
           >
@@ -82,7 +83,7 @@ const Navbar = () => {
         </div>
 
         {mobileMenuOpen && (
-          <nav aria-label="Mobile navigation" className="md:hidden pt-4 pb-2 border-t border-border mt-4">
+          <nav aria-label="Mobile navigation" className="lg:hidden pt-4 pb-2 border-t border-border mt-4">
             <div className="flex flex-col gap-4">
               {navLinks.map((link) => (
                 <Link
