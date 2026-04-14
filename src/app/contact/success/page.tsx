@@ -4,7 +4,9 @@ import { CheckCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-  title: "Message Sent - Klaris AI",
+  title: "Thank You",
+  description:
+    "Thanks for getting in touch with Klaris. We have received your message and will respond as soon as possible.",
   robots: { index: false, follow: false },
 };
 

@@ -1,8 +1,9 @@
-// TODO: Solicitor review required before publishing
+// TODO(legal): Awaiting solicitor review before client handoff.
 "use client";
 
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
+import { KLARIS_EMAIL, KLARIS_PHONE_DISPLAY, KLARIS_PHONE_TEL, KLARIS_SITE_URL } from "@/lib/constants";
 
 const sections = [
   { id: "no-financial-advice", label: "1. No Financial Advice" },
@@ -26,11 +27,11 @@ export default function DisclaimerPage() {
             name: "Disclaimer",
             description:
               "Important disclaimers about Klaris AI wealth planning software. No financial advice provided.",
-            url: "https://klaris.com.au/disclaimer",
+            url: `${KLARIS_SITE_URL}/disclaimer`,
             publisher: {
               "@type": "Organization",
               name: "Klaris AI",
-              url: "https://klaris.com.au",
+              url: KLARIS_SITE_URL,
             },
             datePublished: "2026-04-01",
             dateModified: "2026-04-01",
@@ -194,19 +195,19 @@ export default function DisclaimerPage() {
                 <p className="text-foreground/80 mb-1">
                   <strong>Email:</strong>{" "}
                   <a
-                    href="mailto:info@klaris.com.au"
+                    href={`mailto:${KLARIS_EMAIL}`}
                     className="text-accent hover:underline"
                   >
-                    info@klaris.com.au
+                    {KLARIS_EMAIL}
                   </a>
                 </p>
                 <p className="text-foreground/80 mb-1">
                   <strong>Phone:</strong>{" "}
                   <a
-                    href="tel:+61483966111"
+                    href={`tel:${KLARIS_PHONE_TEL}`}
                     className="text-accent hover:underline"
                   >
-                    +61 483 966 111
+                    {KLARIS_PHONE_DISPLAY}
                   </a>
                 </p>
                 <p className="text-foreground/80">

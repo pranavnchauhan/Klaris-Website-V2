@@ -1,3 +1,5 @@
+import { KLARIS_EMAIL, KLARIS_PHONE_DISPLAY, KLARIS_SITE_URL } from "@/lib/constants";
+
 export default function JsonLd() {
   const jsonLd = {
     "@context": "https://schema.org",
@@ -7,7 +9,7 @@ export default function JsonLd() {
         name: "Klaris",
         applicationCategory: "FinanceApplication",
         operatingSystem: "Web",
-        url: "https://klaris.com.au",
+        url: KLARIS_SITE_URL,
         description:
           "Finance visibility platform for documenting and visualizing complex ownership structures across properties, trusts, SMSFs, and investments. Designed for Australian families, accountants, and financial advisors.",
         featureList: [
@@ -22,15 +24,15 @@ export default function JsonLd() {
       },
       {
         "@type": "Organization",
-        "@id": "https://klaris.com.au/#organization",
+        "@id": `${KLARIS_SITE_URL}/#organization`,
         name: "Klaris",
         alternateName: [
           "Krrisp Digital",
           "Klaris AI",
           "Klaris by Krrisp Digital",
         ],
-        url: "https://klaris.com.au",
-        logo: "https://klaris.com.au/favicon.png",
+        url: KLARIS_SITE_URL,
+        logo: `${KLARIS_SITE_URL}/favicon.png`,
         sameAs: [
           "https://www.linkedin.com/company/krrisp-digital",
           "https://g.co/kgs/krrispdigital",
@@ -50,8 +52,8 @@ export default function JsonLd() {
         contactPoint: {
           "@type": "ContactPoint",
           contactType: "Customer Support",
-          email: "info@klaris.com.au",
-          telephone: "+61-483-966-111",
+          email: KLARIS_EMAIL,
+          telephone: KLARIS_PHONE_DISPLAY,
           areaServed: "AU",
           availableLanguage: "English",
         },
@@ -69,10 +71,10 @@ export default function JsonLd() {
         name: "Klaris by Krrisp Digital",
         description:
           "Finance visibility platform for Australian families and advisors to document and visualize complex ownership structures across trusts, SMSFs, and investments.",
-        url: "https://klaris.com.au",
-        telephone: "+61-483-966-111",
-        email: "info@klaris.com.au",
-        image: "https://klaris.com.au/og-image.png",
+        url: KLARIS_SITE_URL,
+        telephone: KLARIS_PHONE_DISPLAY,
+        email: KLARIS_EMAIL,
+        image: `${KLARIS_SITE_URL}/og-image.png`,
         address: {
           "@type": "PostalAddress",
           streetAddress: "441/14-16 Lexington Dr",
@@ -105,9 +107,9 @@ export default function JsonLd() {
         "@type": "LocalBusiness",
         name: "Krrisp Pty Ltd",
         legalName: "Krrisp Pty Ltd",
-        url: "https://klaris.com.au",
-        telephone: "+61-483-966-111",
-        email: "info@klaris.com.au",
+        url: KLARIS_SITE_URL,
+        telephone: KLARIS_PHONE_DISPLAY,
+        email: KLARIS_EMAIL,
         description:
           "Klaris by Krrisp Pty Ltd provides AI-powered SMSF structure visualization software for Australian accountants, financial advisors, and SMSF professionals.",
         currenciesAccepted: "AUD",
@@ -151,9 +153,9 @@ export default function JsonLd() {
         "@type": "WebSite",
         name: "Klaris",
         alternateName: ["Klaris AI", "Klaris by Krrisp Digital"],
-        url: "https://klaris.com.au",
+        url: KLARIS_SITE_URL,
         publisher: {
-          "@id": "https://klaris.com.au/#organization",
+          "@id": `${KLARIS_SITE_URL}/#organization`,
         },
       },
       {
@@ -163,37 +165,61 @@ export default function JsonLd() {
             "@type": "ListItem",
             position: 1,
             name: "Home",
-            item: "https://klaris.com.au",
+            item: KLARIS_SITE_URL,
           },
           {
             "@type": "ListItem",
             position: 2,
             name: "FAQ",
-            item: "https://klaris.com.au/faq",
+            item: `${KLARIS_SITE_URL}/faq`,
           },
           {
             "@type": "ListItem",
             position: 3,
             name: "Contact",
-            item: "https://klaris.com.au/contact",
+            item: `${KLARIS_SITE_URL}/contact`,
           },
           {
             "@type": "ListItem",
             position: 4,
             name: "Security",
-            item: "https://klaris.com.au/security",
+            item: `${KLARIS_SITE_URL}/security`,
           },
           {
             "@type": "ListItem",
             position: 5,
             name: "Privacy Policy",
-            item: "https://klaris.com.au/privacy",
+            item: `${KLARIS_SITE_URL}/privacy`,
           },
           {
             "@type": "ListItem",
             position: 6,
             name: "Terms of Service",
-            item: "https://klaris.com.au/terms",
+            item: `${KLARIS_SITE_URL}/terms`,
+          },
+          {
+            "@type": "ListItem",
+            position: 7,
+            name: "For Accountants",
+            item: `${KLARIS_SITE_URL}/for-accountants`,
+          },
+          {
+            "@type": "ListItem",
+            position: 8,
+            name: "For Financial Advisors",
+            item: `${KLARIS_SITE_URL}/for-financial-advisors`,
+          },
+          {
+            "@type": "ListItem",
+            position: 9,
+            name: "For Families",
+            item: `${KLARIS_SITE_URL}/for-families`,
+          },
+          {
+            "@type": "ListItem",
+            position: 10,
+            name: "Blog",
+            item: `${KLARIS_SITE_URL}/blog`,
           },
         ],
       },
@@ -212,12 +238,12 @@ export default function JsonLd() {
         keywords:
           "why Klaris, wealth structuring software, high net worth families Australia, family trust software, SMSF structure visualizer, financial legacy planning",
         publisher: {
-          "@id": "https://klaris.com.au/#organization",
+          "@id": `${KLARIS_SITE_URL}/#organization`,
         },
         inLanguage: "en-AU",
         isPartOf: {
           "@type": "WebPage",
-          url: "https://klaris.com.au",
+          url: KLARIS_SITE_URL,
         },
       },
       {

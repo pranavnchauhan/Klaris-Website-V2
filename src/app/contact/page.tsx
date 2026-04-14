@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { KLARIS_EMAIL, KLARIS_PHONE_DISPLAY, KLARIS_SITE_URL } from "@/lib/constants";
 import ContactClient from "./contact-client";
 
 export const metadata: Metadata = {
@@ -19,12 +20,12 @@ export default function ContactPage() {
     "@context": "https://schema.org",
     "@type": "ContactPage",
     name: "Contact Klaris AI",
-    url: "https://klaris.com.au/contact",
+    url: `${KLARIS_SITE_URL}/contact`,
     mainEntity: {
       "@type": "Organization",
       name: "Klaris AI",
-      email: "info@klaris.com.au",
-      telephone: "+61 483 966 111",
+      email: KLARIS_EMAIL,
+      telephone: KLARIS_PHONE_DISPLAY,
       address: {
         "@type": "PostalAddress",
         addressLocality: "Bella Vista",

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
+import { KLARIS_EMAIL, KLARIS_SITE_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Data Security",
@@ -44,11 +45,11 @@ export default function SecurityPage() {
             name: "Data Security Policy",
             description:
               "Klaris AI Data Security Policy. AES-256 encryption, Australian data residency, bank-grade security.",
-            url: "https://klaris.com.au/security",
+            url: `${KLARIS_SITE_URL}/security`,
             publisher: {
               "@type": "Organization",
               name: "Klaris AI",
-              url: "https://klaris.com.au",
+              url: KLARIS_SITE_URL,
             },
             datePublished: "2024-12-16",
             dateModified: "2025-01-21",
@@ -493,10 +494,10 @@ export default function SecurityPage() {
                 <li>
                   Report any suspected unauthorised access immediately to{" "}
                   <a
-                    href="mailto:info@klaris.com.au"
+                    href={`mailto:${KLARIS_EMAIL}`}
                     className="text-accent hover:underline"
                   >
-                    info@klaris.com.au
+                    {KLARIS_EMAIL}
                   </a>
                   .
                 </li>
@@ -600,10 +601,10 @@ export default function SecurityPage() {
                 <p className="text-foreground/80 mb-1">
                   <strong>Email:</strong>{" "}
                   <a
-                    href="mailto:info@klaris.com.au"
+                    href={`mailto:${KLARIS_EMAIL}`}
                     className="text-accent hover:underline"
                   >
-                    info@klaris.com.au
+                    {KLARIS_EMAIL}
                   </a>
                 </p>
                 <p className="text-foreground/80 mb-1">
@@ -612,7 +613,7 @@ export default function SecurityPage() {
                 <p className="text-foreground/80">
                   <strong>Website:</strong>{" "}
                   <a
-                    href="https://klaris.com.au"
+                    href={KLARIS_SITE_URL}
                     className="text-accent hover:underline"
                   >
                     klaris.com.au

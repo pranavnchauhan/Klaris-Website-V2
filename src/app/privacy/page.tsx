@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
+import { KLARIS_EMAIL, KLARIS_SITE_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
@@ -46,11 +47,11 @@ export default function PrivacyPage() {
             name: "Privacy Policy",
             description:
               "How our wealth planning software Australia protects your financial structure data.",
-            url: "https://klaris.com.au/privacy",
+            url: `${KLARIS_SITE_URL}/privacy`,
             publisher: {
               "@type": "Organization",
               name: "Klaris AI",
-              url: "https://klaris.com.au",
+              url: KLARIS_SITE_URL,
             },
             datePublished: "2024-12-16",
             dateModified: "2025-01-21",
@@ -238,10 +239,10 @@ export default function PrivacyPage() {
                 communications at any time by clicking the unsubscribe link in
                 any marketing email or by contacting us at{" "}
                 <a
-                  href="mailto:info@klaris.com.au"
+                  href={`mailto:${KLARIS_EMAIL}`}
                   className="text-accent hover:underline"
                 >
-                  info@klaris.com.au
+                  {KLARIS_EMAIL}
                 </a>
                 . Opting out of marketing does not affect transactional emails
                 related to your account.
@@ -420,10 +421,10 @@ export default function PrivacyPage() {
                 You can request complete deletion of your account and data by
                 contacting us at{" "}
                 <a
-                  href="mailto:info@klaris.com.au"
+                  href={`mailto:${KLARIS_EMAIL}`}
                   className="text-accent hover:underline"
                 >
-                  info@klaris.com.au
+                  {KLARIS_EMAIL}
                 </a>
                 . We will process deletion requests within 30 days and confirm
                 completion via email.
@@ -570,10 +571,10 @@ export default function PrivacyPage() {
                 that information as soon as possible. If you believe a child has
                 provided us with personal information, please contact us at{" "}
                 <a
-                  href="mailto:info@klaris.com.au"
+                  href={`mailto:${KLARIS_EMAIL}`}
                   className="text-accent hover:underline"
                 >
-                  info@klaris.com.au
+                  {KLARIS_EMAIL}
                 </a>
                 .
               </p>
@@ -650,10 +651,10 @@ export default function PrivacyPage() {
                 <li>
                   <strong>Contact us first</strong> - Email us at{" "}
                   <a
-                    href="mailto:info@klaris.com.au"
+                    href={`mailto:${KLARIS_EMAIL}`}
                     className="text-accent hover:underline"
                   >
-                    info@klaris.com.au
+                    {KLARIS_EMAIL}
                   </a>{" "}
                   with details of your complaint. We will investigate and
                   respond within 30 days.
@@ -707,10 +708,10 @@ export default function PrivacyPage() {
                 <p className="text-foreground/80 mb-1">
                   <strong>Email:</strong>{" "}
                   <a
-                    href="mailto:info@klaris.com.au"
+                    href={`mailto:${KLARIS_EMAIL}`}
                     className="text-accent hover:underline"
                   >
-                    info@klaris.com.au
+                    {KLARIS_EMAIL}
                   </a>
                 </p>
                 <p className="text-foreground/80 mb-1">
@@ -719,7 +720,7 @@ export default function PrivacyPage() {
                 <p className="text-foreground/80">
                   <strong>Website:</strong>{" "}
                   <a
-                    href="https://klaris.com.au"
+                    href={KLARIS_SITE_URL}
                     className="text-accent hover:underline"
                   >
                     klaris.com.au

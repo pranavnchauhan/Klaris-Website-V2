@@ -4,6 +4,7 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { Mail, MapPin, Calendar, Send, Briefcase, Phone } from "lucide-react";
+import { KLARIS_EMAIL, KLARIS_PHONE_DISPLAY, KLARIS_PHONE_TEL } from "@/lib/constants";
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -189,10 +190,10 @@ export default function ContactClient() {
                     <div>
                       <p className="text-sm font-medium">Email</p>
                       <a
-                        href="mailto:info@klaris.com.au"
+                        href={`mailto:${KLARIS_EMAIL}`}
                         className="text-sm text-muted-foreground hover:text-primary transition-colors"
                       >
-                        info@klaris.com.au
+                        {KLARIS_EMAIL}
                       </a>
                     </div>
                   </div>
@@ -201,10 +202,10 @@ export default function ContactClient() {
                     <div>
                       <p className="text-sm font-medium">Phone</p>
                       <a
-                        href="tel:+61483966111"
+                        href={`tel:${KLARIS_PHONE_TEL}`}
                         className="text-sm text-muted-foreground hover:text-primary transition-colors"
                       >
-                        +61 483 966 111
+                        {KLARIS_PHONE_DISPLAY}
                       </a>
                     </div>
                   </div>

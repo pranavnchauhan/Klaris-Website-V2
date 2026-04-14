@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
+import { KLARIS_EMAIL, KLARIS_SITE_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Terms of Service",
@@ -49,11 +50,11 @@ export default function TermsPage() {
             name: "Terms of Service",
             description:
               "Legal terms for using Australia's trusted wealth planning software.",
-            url: "https://klaris.com.au/terms",
+            url: `${KLARIS_SITE_URL}/terms`,
             publisher: {
               "@type": "Organization",
               name: "Klaris AI",
-              url: "https://klaris.com.au",
+              url: KLARIS_SITE_URL,
             },
             datePublished: "2024-12-16",
             dateModified: "2025-01-21",
@@ -388,10 +389,10 @@ export default function TermsPage() {
                 may be considered at our discretion. To request a refund, contact us
                 at{" "}
                 <a
-                  href="mailto:info@klaris.com.au"
+                  href={`mailto:${KLARIS_EMAIL}`}
                   className="text-accent hover:underline"
                 >
-                  info@klaris.com.au
+                  {KLARIS_EMAIL}
                 </a>
                 .
               </p>
@@ -547,10 +548,10 @@ export default function TermsPage() {
                 You can request complete deletion of your data by contacting us
                 at{" "}
                 <a
-                  href="mailto:info@klaris.com.au"
+                  href={`mailto:${KLARIS_EMAIL}`}
                   className="text-accent hover:underline"
                 >
-                  info@klaris.com.au
+                  {KLARIS_EMAIL}
                 </a>
                 . Upon account closure, financial structure data will be deleted
                 within 90 days. Certain records may be retained as required by
@@ -824,10 +825,10 @@ export default function TermsPage() {
                 us to attempt to resolve the dispute informally. Please email us
                 at{" "}
                 <a
-                  href="mailto:info@klaris.com.au"
+                  href={`mailto:${KLARIS_EMAIL}`}
                   className="text-accent hover:underline"
                 >
-                  info@klaris.com.au
+                  {KLARIS_EMAIL}
                 </a>{" "}
                 with a detailed description of the issue. We will make a genuine
                 effort to resolve disputes within 30 days.
@@ -880,10 +881,10 @@ export default function TermsPage() {
                 <p className="text-foreground/80 mb-1">
                   <strong>Email:</strong>{" "}
                   <a
-                    href="mailto:info@klaris.com.au"
+                    href={`mailto:${KLARIS_EMAIL}`}
                     className="text-accent hover:underline"
                   >
-                    info@klaris.com.au
+                    {KLARIS_EMAIL}
                   </a>
                 </p>
                 <p className="text-foreground/80 mb-1">
@@ -892,7 +893,7 @@ export default function TermsPage() {
                 <p className="text-foreground/80">
                   <strong>Website:</strong>{" "}
                   <a
-                    href="https://klaris.com.au"
+                    href={KLARIS_SITE_URL}
                     className="text-accent hover:underline"
                   >
                     klaris.com.au

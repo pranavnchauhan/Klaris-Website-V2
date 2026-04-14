@@ -3,6 +3,12 @@ import { Ratelimit } from "@upstash/ratelimit";
 import { Redis } from "@upstash/redis";
 import sgMail from "@sendgrid/mail";
 import { z } from "zod";
+import { KLARIS_EMAIL } from "@/lib/constants";
+
+// TODO: wire to Sentry when available
+function logServerError(message: string, meta?: unknown) {
+  console.error(message, meta);
+}
 
 // Zod schema
 const contactSchema = z.object({
@@ -59,7 +65,7 @@ export async function POST(request: NextRequest) {
     if (process.env.SENDGRID_API_KEY) {
       sgMail.setApiKey(process.env.SENDGRID_API_KEY);
       await sgMail.send({
-        to: "info@klaris.com.au",
+        to: KLARIS_EMAIL,
         from: "noreply@klaris.com.au",
         replyTo: email,
         subject: `Klaris Contact: ${subject} - ${name}`,
@@ -70,7 +76,7 @@ export async function POST(request: NextRequest) {
 
     return NextResponse.json({ success: true });
   } catch (error) {
-    console.error("Contact form error:", error);
+    logServerError("Contact form submission failed", error);
     return NextResponse.json(
       { error: "Failed to send message" },
       { status: 500 }
