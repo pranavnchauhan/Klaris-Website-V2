@@ -261,6 +261,12 @@ export default function ContactClient() {
                       white-label options, and dedicated onboarding support.
                     </p>
                   </div>
+                  <div className="rounded-md bg-primary/5 border border-primary/20 px-4 py-3">
+                    <p className="text-sm font-medium text-primary">Free 1-month trial</p>
+                    <p className="text-sm text-muted-foreground mt-0.5">
+                      We are offering a free 1-month trial for accounting and advisory firms. Book a meeting to learn more.
+                    </p>
+                  </div>
                   <Button variant="outline" className="w-full" asChild>
                     <a
                       href="https://cal.com/kd-pc/klaris-partnership-discussion"
