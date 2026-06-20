@@ -70,7 +70,7 @@ export default async function ArticlePage({
       {faqSchema && (
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema).replace(/<\/script>/gi, "<\\/script>") }}
         />
       )}
       <MDXRemote source={content} components={mdxComponents} />
