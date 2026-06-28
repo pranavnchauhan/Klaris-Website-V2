@@ -382,7 +382,7 @@ export default function SecurityPage() {
 
                 <div className="bg-secondary/20 rounded-lg p-4">
                   <h3 className="font-semibold text-primary mb-2">
-                    SendGrid (Email Communications)
+                    Resend (Email Communications)
                   </h3>
                   <ul className="list-disc pl-6 space-y-1 text-foreground/80">
                     <li>

@@ -99,7 +99,6 @@ export default function RootLayout({
           type="font/woff2"
           crossOrigin="anonymous"
         />
-        <link rel="preconnect" href="https://app.klaris.com.au" />
         <link rel="dns-prefetch" href="https://app.klaris.com.au" />
       </head>
       <body>

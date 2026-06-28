@@ -43,10 +43,10 @@ export default function ProblemSection() {
     <section id="problem" className="section-problem py-16 md:py-24">
       <div ref={ref} className="max-w-[1200px] mx-auto px-5">
         <div className="text-center mb-12">
-          <p className="text-sm font-semibold uppercase tracking-wider text-primary-foreground/70 mb-3">
+          <p className="text-sm font-semibold uppercase tracking-wider text-primary mb-3">
             The Problem
           </p>
-          <h2 className="text-3xl font-bold text-primary-foreground sm:text-4xl text-center">
+          <h2 className="text-3xl font-bold text-primary sm:text-4xl text-center">
             Wealth Without Structure Is a Liability
           </h2>
         </div>
@@ -78,7 +78,7 @@ export default function ProblemSection() {
             isInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
           }`}
         >
-          <blockquote className="text-lg md:text-xl font-medium text-primary-foreground/90 italic max-w-2xl mx-auto">
+          <blockquote className="text-lg md:text-xl font-medium text-primary italic max-w-2xl mx-auto">
             &ldquo;This lack of clarity creates risk, inefficiency, and stress.&rdquo;
           </blockquote>
         </div>

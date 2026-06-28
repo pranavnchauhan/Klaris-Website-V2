@@ -47,7 +47,7 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Klaris on LinkedIn"
-              className="text-gray-500 hover:text-white transition-colors"
+              className="text-gray-400 hover:text-white transition-colors"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -63,7 +63,7 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Klaris on X"
-              className="text-gray-500 hover:text-white transition-colors"
+              className="text-gray-400 hover:text-white transition-colors"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -79,7 +79,7 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Klaris on YouTube"
-              className="text-gray-500 hover:text-white transition-colors"
+              className="text-gray-400 hover:text-white transition-colors"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -111,7 +111,7 @@ const Footer = () => {
               <Link
                 key={link.href}
                 href={link.href}
-                className="text-xs text-gray-500 hover:text-gray-300 transition-colors"
+                className="text-xs text-gray-400 hover:text-white transition-colors"
               >
                 {link.label}
               </Link>
@@ -120,7 +120,7 @@ const Footer = () => {
         </div>
 
         {/* Row 3: Legal line */}
-        <p className="mt-6 text-xs text-gray-500 text-center">
+        <p className="mt-6 text-xs text-gray-400 text-center">
           &copy; {new Date().getFullYear()} Krrisp Pty Ltd (ABN 38 609 221 570
           &middot; ACN 609 221 570) trading as Klaris AI. All rights reserved.
         </p>

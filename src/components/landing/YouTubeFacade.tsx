@@ -11,7 +11,7 @@ interface YouTubeFacadeProps {
 export default function YouTubeFacade({ videoId, title, caption }: YouTubeFacadeProps) {
   const [activated, setActivated] = useState(false);
 
-  const thumbnailUrl = `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`;
+  const thumbnailUrl = "/images/klaris-video-thumbnail.jpg";
   const embedUrl = `https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0`;
 
   if (activated) {
@@ -35,7 +35,7 @@ export default function YouTubeFacade({ videoId, title, caption }: YouTubeFacade
     <div className="w-full">
       <button
         type="button"
-        aria-label={`Play video: ${title}`}
+        aria-label={`Watch video: ${title}`}
         onClick={() => setActivated(true)}
         className="group relative w-full overflow-hidden rounded-2xl shadow-2xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 cursor-pointer block"
         style={{ aspectRatio: "16/9" }}

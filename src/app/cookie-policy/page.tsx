@@ -168,7 +168,7 @@ export default function CookiePolicyPage() {
                   </a>
                 </li>
                 <li>
-                  <strong>SendGrid</strong> - Email delivery. SendGrid
+                  <strong>Resend</strong> - Email delivery. Resend
                   does not set cookies on the public website.
                 </li>
               </ul>

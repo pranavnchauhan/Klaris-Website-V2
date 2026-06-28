@@ -61,10 +61,10 @@ export default function AudienceSection() {
 
       <div ref={ref} className="relative z-10 max-w-[1200px] mx-auto px-5">
         <div className="text-center mb-12">
-          <p className="text-sm font-semibold uppercase tracking-wider text-primary-foreground/70 mb-3">
+          <p className="text-sm font-semibold uppercase tracking-wider text-[#111c22] mb-3">
             Who It&apos;s For
           </p>
-          <h2 className="text-3xl font-bold text-primary-foreground sm:text-4xl text-center">
+          <h2 className="text-3xl font-bold text-[#111c22] sm:text-4xl text-center">
             Built for Everyone Who Manages Wealth
           </h2>
         </div>
@@ -73,7 +73,7 @@ export default function AudienceSection() {
           {audiences.map((audience, index) => (
             <Card
               key={audience.title}
-              className={`group border-0 bg-white/10 backdrop-blur-sm transition-all duration-500 hover:bg-white/15 hover:shadow-lg ${
+              className={`group border-0 bg-white/20 backdrop-blur-sm transition-all duration-500 hover:bg-white/30 hover:shadow-lg ${
                 isInView
                   ? "opacity-100 translate-y-0"
                   : "opacity-0 translate-y-8"
@@ -82,10 +82,10 @@ export default function AudienceSection() {
             >
               <CardContent className="p-6 pt-6 flex flex-col items-center text-center gap-4">
                 <GlowingIcon icon={audience.icon} color={audience.color} />
-                <h3 className="text-lg font-semibold text-primary-foreground">
+                <h3 className="text-lg font-semibold text-[#111c22]">
                   {audience.title}
                 </h3>
-                <p className="text-sm text-primary-foreground/70 leading-relaxed">
+                <p className="text-sm text-[#111c22] leading-relaxed">
                   {audience.description}
                 </p>
               </CardContent>

@@ -31,7 +31,7 @@ export default function ContactClient() {
     const formData = new FormData(form);
 
     // Honeypot check
-    if (formData.get("website")) {
+    if (formData.get("honeypot")) {
       return;
     }
 
@@ -40,6 +40,7 @@ export default function ContactClient() {
       email: formData.get("email") as string,
       subject: formData.get("subject") as string,
       message: formData.get("message") as string,
+      honeypot: formData.get("honeypot") as string,
     };
 
     try {
@@ -99,11 +100,11 @@ export default function ContactClient() {
                   <form onSubmit={handleSubmit} className="space-y-6">
                     {/* Honeypot */}
                     <div className="absolute -left-[9999px]" aria-hidden="true">
-                      <label htmlFor="website">Website</label>
+                      <label htmlFor="honeypot">Website</label>
                       <input
                         type="text"
-                        id="website"
-                        name="website"
+                        id="honeypot"
+                        name="honeypot"
                         tabIndex={-1}
                         autoComplete="off"
                       />

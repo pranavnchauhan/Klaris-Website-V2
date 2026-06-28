@@ -343,7 +343,7 @@ export default function PrivacyPage() {
                   never store card details on our servers.
                 </li>
                 <li>
-                  <strong>SendGrid</strong> - Transactional email delivery
+                  <strong>Resend</strong> - Transactional email delivery
                   (verification, password reset, notifications). Receives your
                   email address and name only. No financial data is included in
                   emails.
@@ -537,7 +537,7 @@ export default function PrivacyPage() {
                   information.
                 </li>
                 <li>
-                  <strong>SendGrid</strong> (USA) - Processes email
+                  <strong>Resend</strong> (USA) - Processes email
                   delivery.
                 </li>
               </ul>
@@ -550,10 +550,10 @@ export default function PrivacyPage() {
                 <p className="text-emerald-700">
                   Where data is transferred internationally, we ensure that the
                   receiving parties maintain security standards comparable to
-                  Australian requirements. Both Stripe and SendGrid maintain
-                  SOC 2 Type II compliance and other industry-standard security
-                  certifications. No financial structure data is included in
-                  international transfers.
+                  Australian requirements. Stripe and Resend maintain
+                  industry-standard security controls and certifications. No
+                  financial structure data is included in international
+                  transfers.
                 </p>
               </div>
             </section>

@@ -229,7 +229,7 @@ export default function JsonLd() {
         description:
           "Discover why high-net-worth Australian families, accountants, and financial advisors choose Klaris to bring clarity to complex wealth structures. Klaris maps Family Trusts, SMSFs, companies, and investments in one secure platform, giving you full visibility of your financial legacy and peace of mind for the next generation.",
         thumbnailUrl:
-          "https://i.ytimg.com/vi/iF6_-tx2RgI/hqdefault.jpg",
+          `${KLARIS_SITE_URL}/images/klaris-video-thumbnail.jpg`,
         uploadDate: "2026-02-01",
         duration: "PT1M30S",
         embedUrl: "https://www.youtube.com/embed/iF6_-tx2RgI",
