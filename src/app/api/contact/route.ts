@@ -24,6 +24,17 @@ function logSend(entry: SendLog) {
   console.log(JSON.stringify(entry));
 }
 
+// Escape user-supplied values before embedding them in the notification email
+// HTML, so a submitted name/subject/message cannot inject markup.
+function escapeHtml(value: string): string {
+  return value
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#39;");
+}
+
 // Zod schema
 const contactSchema = z.object({
   name: z.string().trim().min(1).max(100),
@@ -121,7 +132,13 @@ export async function POST(request: NextRequest) {
 
     const composedSubject = `Klaris Contact: ${subject} - ${name}`;
     const text = `Name: ${name}\nEmail: ${email}\nSubject: ${subject}\n\nMessage:\n${message}`;
-    const html = `<h3>New Contact Form Submission</h3><p><strong>Name:</strong> ${name}</p><p><strong>Email:</strong> ${email}</p><p><strong>Subject:</strong> ${subject}</p><hr/><p>${message.replace(/\n/g, "<br/>")}</p>`;
+    const html = `<h3>New Contact Form Submission</h3><p><strong>Name:</strong> ${escapeHtml(
+      name
+    )}</p><p><strong>Email:</strong> ${escapeHtml(
+      email
+    )}</p><p><strong>Subject:</strong> ${escapeHtml(
+      subject
+    )}</p><hr/><p>${escapeHtml(message).replace(/\n/g, "<br/>")}</p>`;
 
     const sendArgs: SendArgs = {
       to: KLARIS_EMAIL,

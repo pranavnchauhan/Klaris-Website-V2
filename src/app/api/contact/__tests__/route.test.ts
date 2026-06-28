@@ -88,6 +88,26 @@ describe("POST /api/contact", () => {
     expect(fetchMock).not.toHaveBeenCalled();
   });
 
+  it("escapes HTML in user input → no raw markup in email html (XSS regression)", async () => {
+    process.env.RESEND_API_KEY = "re_test";
+    fetchMock.mockResolvedValue(new Response(JSON.stringify({ id: "x" }), { status: 200 }));
+
+    await POST(
+      makeRequest({
+        ...validBody,
+        name: "<script>alert(1)</script>",
+        message: "Hi <img src=x onerror=alert(2)> there",
+      }) as never,
+    );
+
+    const [, init] = fetchMock.mock.calls[0];
+    const body = JSON.parse((init as RequestInit).body as string);
+    expect(body.html).not.toContain("<script>");
+    expect(body.html).not.toContain("<img");
+    expect(body.html).toContain("&lt;script&gt;");
+    expect(body.html).toContain("&lt;img");
+  });
+
   it("invalid body → 400 validation error, provider not called", async () => {
     process.env.RESEND_API_KEY = "re_test";
     const res = await POST(
