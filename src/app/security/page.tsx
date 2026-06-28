@@ -129,9 +129,8 @@ export default function SecurityPage() {
                 </h3>
                 <p className="text-emerald-700">
                   All financial structure data is stored on servers located
-                  within Australia. We use Supabase with an Australian region
-                  (Sydney, ap-southeast-2) to ensure your sensitive financial
-                  information never leaves Australian jurisdiction.
+                  within Australia (Sydney, Australia), ensuring your sensitive
+                  financial information never leaves Australian jurisdiction.
                 </p>
               </div>
 
@@ -139,9 +138,9 @@ export default function SecurityPage() {
                 Infrastructure Provider
               </h3>
               <p className="text-foreground/80 mb-4">
-                Our platform infrastructure is hosted on Supabase, which uses
-                Amazon Web Services (AWS) data centres. Our database is
-                provisioned in the Sydney (ap-southeast-2) region.
+                Our platform runs on enterprise-grade cloud infrastructure with
+                data centres located in Sydney, Australia. All production data is
+                provisioned within the Australian region.
               </p>
 
               <h3 className="text-lg font-semibold text-primary mb-3">
@@ -149,7 +148,7 @@ export default function SecurityPage() {
               </h3>
               <p className="text-foreground/80 mb-4">
                 Each user&apos;s data is logically segregated at the database
-                level using Row Level Security (RLS) policies. This means:
+                level using row-level access controls. This means:
               </p>
               <ul className="list-disc pl-6 space-y-2 text-foreground/80">
                 <li>
@@ -214,8 +213,8 @@ export default function SecurityPage() {
                   Database backups are also encrypted using the same standard.
                 </li>
                 <li>
-                  Encryption keys are managed by AWS Key Management Service
-                  (KMS) and are rotated regularly.
+                  Encryption keys are managed through a dedicated key management
+                  service and are rotated regularly.
                 </li>
               </ul>
             </section>

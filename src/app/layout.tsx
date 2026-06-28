@@ -78,7 +78,7 @@ export const metadata: Metadata = {
     "ai:target_audience":
       "Australian accountants, financial advisers, and accounting firms serving high net worth clients and complex family groups",
     "ai:key_features":
-      "AI financial planning platform, interactive wealth graphs, portfolio visualization tools, trust documentation, SMSF tracking",
+      "AI-powered wealth structure visualisation, interactive wealth graphs, entity and ownership mapping, trust documentation, SMSF tracking",
     "ai:pricing":
       "Book a demo to discuss your needs at cal.com/kd-pc/klaris-partnership-discussion",
   },

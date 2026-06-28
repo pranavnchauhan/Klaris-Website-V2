@@ -42,8 +42,8 @@ export default function CTASection() {
             Get Started
           </h2>
           <p className="text-lg text-primary-foreground/80 mb-8 text-center">
-            Your AI financial planning platform awaits. Book a demo to see how Klaris
-            can bring clarity to your wealth structure.
+            Your AI-powered wealth structure platform awaits. Book a demo to see
+            how Klaris can bring clarity to your wealth structure.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

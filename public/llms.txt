@@ -8,7 +8,7 @@
 **Location**: Sydney, NSW, Australia
 **Developer**: Krrisp Digital (https://krrispdigital.com.au)
 
-**Keywords**: Klaris AI, wealth planning software Australia, AI wealth planning tool, financial structure visualizer, wealth structuring software, portfolio visualization tools, estate planning software, trust and SMSF structure software, family office planning tools, financial advisor tools Australia, AI for financial advisors, financial clarity solutions, financial decision-making software, AI financial planning platform
+**Keywords**: Klaris AI, wealth structure visualisation software Australia, AI wealth structure tool, financial structure visualiser, wealth structuring software, portfolio visualisation tools, estate planning software, trust and SMSF structure software, family office planning tools, financial adviser tools Australia, AI for financial advisers, financial clarity solutions, wealth visibility platform
 
 ---
 
@@ -37,7 +37,7 @@ Many Australians struggle to simplify wealth structures and map complex financia
 - **Asset Management**: Document properties, investments, and other assets with ownership details
 - **Financial Advisor Tools Australia**: Permission-based access control for accountants and advisors
 - **PDF Export**: Generate professional reports for meetings, estate planning, and compliance
-- **Secure Australian Hosting**: AES-256 encryption, Australian Data Residency (AWS Sydney ap-southeast-2)
+- **Secure Australian Hosting**: AES-256 encryption, Australian data residency (data hosted in Sydney, Australia)
 
 ## Pricing
 
@@ -60,8 +60,8 @@ Book a demo: https://cal.com/kd-pc/klaris-partnership-discussion
 
 - AES-256 military-grade encryption at rest
 - 256-bit SSL/TLS encryption in transit (HTTPS enforced)
-- Row-level security (RLS) database protection
-- 100% Australian Data Residency (AWS Sydney Region - ap-southeast-2)
+- Row-level access controls for database protection
+- 100% Australian data residency (data hosted in Sydney, Australia)
 - Alignment with Australian Privacy Principles (APP)
 - Zero Visibility Guarantee: Staff have no default access to user structures
 - Support access is strictly opt-in and audit-logged
@@ -126,7 +126,7 @@ Book a demo: https://cal.com/kd-pc/klaris-partnership-discussion
 
 ### Q8: Who can access my data and where is it stored?
 
-**Direct Answer Lead**: Your data is stored exclusively in Australian data centers (Sydney region, ap-southeast-2). Access is restricted strictly to you and any advisors you have explicitly invited. Klaris staff have no default access to view your wealth structures.
+**Direct Answer Lead**: Your data is stored exclusively in Australian data centres (Sydney, Australia). Access is restricted strictly to you and any advisers you have explicitly invited. Klaris staff have no default access to view your wealth structures.
 
 ### Q9: Does Klaris comply with Australian privacy laws?
 
